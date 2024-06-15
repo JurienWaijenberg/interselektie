@@ -16,7 +16,7 @@
                 <input type="submit" id="vacatures-zoeken" value="Vacatures zoeken">
             </form>
 
-            <a href="x"><h4><i class="fa-solid fa-phone-flip"></i> 075 - 621 88 45</h4></a>
+            <a class="tel-nummer" href="x"><h4><i class="fa-solid fa-phone-flip"></i> 075 - 621 88 45</h4></a>
         </section>	
 
         
@@ -47,15 +47,15 @@
                 <input type="submit" id="vacatures-zoeken" value="Vacatures zoeken">
             </form>
 
-            <a href="x"><h4><i class="fa-solid fa-phone-flip"></i> 075 - 621 88 45</h4></a>
+            <a class="tel-nummer" href="x"><h4><i class="fa-solid fa-phone-flip"></i> 075 - 621 88 45</h4></a>
         </section>
     </section>
 </section>
 
 <!--Top vacatures-->
-<section class="top-vacatures max-width">
+<section class="vacatures-resultaten max-width">
 
-    <section>
+    <section class="vacatures">
         <ul>
             <li>
                 <h3>Werkvoorbereider/ Calculator elektrotechniek</h3>
@@ -86,6 +86,44 @@
             </li>
         </ul>
     </section>
+
+    <section class="vacatures-filter">
+        <section class="filters">
+
+        </section>
+        <section class="open-sollicitatie">
+
+        </section>
+    </section>
+
+</section>
+
+
+<section class="berichtenselektie max-width">
+
+    <ul>
+        <li>
+            <img src="http://interselektie.local/wp-content/uploads/2024/06/berichtenselektieIMG.png" alt="">
+            <h3>Haal alles uit het recruitmentsysteem</h3>
+            <h5>deel 2: Bewaak de datakwaliteit</h5>
+            <p>Wat zijn de belangrijkste succesfactoren bij het gebruik van een recruitmentsysteem? Hans Scheers, partner bij Experts in Flex, legt dat uit in een serie van vier artikelen. In deel 2: de do’s en don’ts voor je kandidatendatabase.</p>
+            <a href=""><p>Lees verder</p></a>
+        </li>
+        <li>
+            <img src="http://interselektie.local/wp-content/uploads/2024/06/berichtenselektieIMG.png" alt="">
+            <h3>Haal alles uit het recruitmentsysteem</h3>
+            <h5>deel 2: Bewaak de datakwaliteit</h5>
+            <p>Wat zijn de belangrijkste succesfactoren bij het gebruik van een recruitmentsysteem? Hans Scheers, partner bij Experts in Flex, legt dat uit in een serie van vier artikelen. In deel 2: de do’s en don’ts voor je kandidatendatabase.</p>
+            <a href=""><p>Lees verder</p></a>
+        </li>
+        <li>
+            <img src="http://interselektie.local/wp-content/uploads/2024/06/berichtenselektieIMG.png" alt="">
+            <h3>Haal alles uit het recruitmentsysteem</h3>
+            <h5>deel 2: Bewaak de datakwaliteit</h5>
+            <p>Wat zijn de belangrijkste succesfactoren bij het gebruik van een recruitmentsysteem? Hans Scheers, partner bij Experts in Flex, legt dat uit in een serie van vier artikelen. In deel 2: de do’s en don’ts voor je kandidatendatabase.</p>
+            <a href=""><p>Lees verder</p></a>
+        </li>
+    </ul>
 
 </section>
 

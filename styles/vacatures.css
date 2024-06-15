@@ -66,3 +66,117 @@
 .vacatures-intro section:nth-child(2) {
     flex: 1;
 }
+
+
+/******************************************************************/
+/* Top vacatures/* /* Top vacatures/* /* Top vacatures/* /* Top vacatures/* 
+/******************************************************************/
+
+.vacatures-resultaten {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.vacatures {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* Titel + iconen */
+.vacatures a{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    text-decoration: none;
+}
+
+/* Pijl icoon groter */
+.fa-chevron-right{
+    font-size: 1.8rem;
+}
+
+/* vacatures 3x */
+.vacatures {
+    display: flex;
+    gap: 3rem;
+    flex: 2;
+}
+
+.vacatures-filter {
+    flex: 1;
+}
+
+.vacatures ul{
+    padding: 0;
+}
+
+.vacatures ul li{
+    padding: 2rem;
+    border: red solid 2px;
+    border-radius: var(--roundborder);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* locatie */
+.vacatures ul li p:first-of-type{
+    text-transform:uppercase;
+}
+
+.vacatures ul li p:nth-of-type(2){
+    margin: 1rem 0;
+}
+
+/* buttons */
+.vacatures ul li a{
+    text-align: left;
+    max-width: 48%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+
+.vacatures ul li a:last-of-type {
+    background-color: var(--Wit);
+    color: var(--Donkerblauw);
+    border: solid 0.15rem var(--Donkerblauw);
+}
+
+
+/* hart icoon */
+.vacatures .fa-heart{
+    font-size: 1.2rem;
+}
+
+/* buttons blauw*/
+.vacatures ul li a:first-of-type {
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 1.6rem;
+
+    color: var(--Wit);
+    background-color: var(--Donkerblauw);
+    padding: 0.6rem 1.5rem;
+    border-radius: 10rem;
+    text-decoration: none; 
+    border: solid 0.15rem var(--Donkerblauw);
+}
+
+.vacatures ul li a {
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 1.6rem;
+    color: var(--Wit);
+    background-color: var(--Donkerblauw);
+    padding: 0.6rem 1.5rem;
+    border-radius: 10rem;
+    text-decoration: none;
+}
+
+.tel-nummer {
+    justify-content: center;
+}
