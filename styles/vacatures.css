@@ -1,0 +1,68 @@
+/******************************************************************/
+/* atf-vacatures /* /* atf-vacatures /* /* atf-vacatures /* /* atf-vacatures /* /* atf-vacatures /* 
+/******************************************************************/
+.atf-vacatures-phone{
+    display: none;
+}
+
+.atf-vacatures-bg {
+    background-image: url("http://interselektie.local/wp-content/uploads/2024/06/lachende-vrouw.jpg");
+    background-size: cover;
+    height: 20vh;
+    display: flex;
+    align-items: flex-end
+}
+
+.vacatures-intro a{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header-dot {
+    justify-content: flex-start !important;
+}
+
+.vacatures-intro {
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: -5em;
+}
+
+.vacatures-intro h2 span {
+    color: var(--Rood);
+}
+
+.vacatures-intro h2 {
+    margin-bottom: 1rem;
+}
+
+.vacatures-intro .header-dot h2 {
+    margin-bottom: 0;
+}
+
+.vacatures-intro section:first-of-type {
+    background-color: var(--Wit);
+    border-radius: 0 1.5rem 0 0;
+    height: fit-content;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex: 2;
+}
+
+.vacatures-intro section:first-of-type form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.vacatures-intro section:nth-child(2) {
+    flex: 1;
+}
