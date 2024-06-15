@@ -1,2 +1,1073 @@
 /* CSS */
 
+* {
+    margin: 0;
+}
+
+.max-width {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.max-width-small {
+    max-width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+:root{
+  --Rood: rgba(227, 6, 19, 1);
+  --Wit: rgba(255, 255, 255, 1);
+  --Donkerblauw: rgba(29, 38, 70, 1);
+  --Lichtgrijs: rgba(245, 245, 245, 1);
+  --Donkergrijs: rgba(137, 137, 137, 1);
+  --Grijs: rgba(229, 229, 229, 1);
+
+
+  --roundborder: 0 1.5rem 1.5rem 1.5rem;
+}
+
+.red-bg{
+    background-color: red;
+}
+
+.light-grey-bg{
+    background-color: var(--Lichtgrijs);
+}
+
+.dark-grey-bg{
+    background-color: var(--Grijs);
+    border-radius: 0 0 1.5rem 0;
+}
+
+.blue-bg{
+    background-color: var(--Donkerblauw);
+}
+
+/******************************************************************/
+/* fonts /* /* fonts /* /* fonts /* /* fonts /* /* fonts /* /* fonts /* 
+/******************************************************************/
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a{
+    font-family: Helvetica, Arial, sans-serif;
+    color: var(--Donkerblauw);
+}
+
+h1{
+    color: var(--Wit);
+    font-weight: 200;
+    font-size: 4.5rem;
+    margin-left: 3rem;
+}
+    
+
+h2{
+    font-size: 2.3rem;
+    font-weight: 400;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+h4{
+    font-size: 1.45rem;
+    font-weight: lighter;
+}
+
+h5,
+#vacatures-zoeken,
+#functie,
+#plaatsnaam-postcode{
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+p{
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 1.6rem;
+}
+
+/******************************************************************/
+/* margin/padding boven/onder section /* /* margin/padding boven/onder section /* 
+/******************************************************************/
+
+/* extra ruimte boven/onder section (met max-width)*/
+.top-vacatures{
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+/* extra ruimte boven/onder section (met bg)*/
+.vakgebieden,
+.berichtenselektie{
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+
+/* extra 2x ruimte boven/onder section (met bg)*/
+.join-interselektie{
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+}
+
+/******************************************************************/
+/* iconen+buttons /* /* iconen+buttons /* /* iconen+buttons /* /* iconen+buttons /* 
+/******************************************************************/
+
+/* buttons blauw*/
+.top-vacatures section:last-of-type ul li a,
+.vakgebieden > a {
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 1.6rem;
+
+    color: var(--Wit);
+    background-color: var(--Donkerblauw);
+    padding: 0.6rem 1.5rem;
+    border-radius: 10rem;
+    text-decoration: none; 
+}
+
+#favicon{
+    width: 1rem;
+}
+
+/* Rode iconen */
+.fa-phone-flip,
+.fa-chevron-right,
+.fa-circle,
+.fa-facebook-f,
+.fa-twitter,
+.fa-linkedin-in,
+.fa-youtube{
+    color: var(--Rood);
+}
+
+
+/******************************************************************/
+/* Header Top /*    /* Header Top /*    /* Header Top /*    /* Header Top /*
+/******************************************************************/
+header section:nth-of-type(1){
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--Rood);
+    width: 100%;
+    height: 3rem;
+    color: var(--Wit);
+  }
+
+  
+header section:nth-of-type(1) ul{
+    display: flex;
+    gap: 2rem;
+    list-style-type: none; 
+    align-items: center;
+}
+
+/* Inloggen */
+header section:nth-of-type(1) li a{
+    text-decoration: none;
+    color: var(--Wit);
+}
+
+header section:nth-of-type(1) li h4{
+    color: var(--Wit);
+}
+
+/* iconen naast tekst */
+header section:nth-of-type(1) li:nth-child(1),
+header section:nth-of-type(1) li:nth-child(3)
+{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* pijl-icoon NL */
+header section:nth-of-type(1) li:nth-child(1){
+    gap: 0.08rem;
+}
+
+/* Profiel-icoon Inloggen */
+header section:nth-of-type(1) li:nth-child(3) i{
+    color: var(--Rood);
+    background-color: var(--Wit);
+    padding: 0.4rem;
+    border-radius: 100%;
+}
+
+
+/******************************************************************/
+/* Header Bottom/*  /* Header Bottom/*  /* Header Bottom/*  /* Header Bottom/*
+/******************************************************************/
+
+header section:nth-of-type(2) > a:nth-of-type(1),
+header section:nth-of-type(2) > a:nth-of-type(3){
+display: none;
+}
+
+header section:nth-of-type(2){
+    display: flex;
+    justify-content: space-between;
+    align-items:  center;
+    width: 100%;
+    padding: 1rem 0;
+}
+
+/* Logo */
+header section:nth-of-type(2) img:first-of-type {
+    width: 13rem;
+}
+
+header section:nth-of-type(2) nav ul{
+    display: flex;
+    gap: 2rem;
+    list-style-type: none; 
+}
+
+header section:nth-of-type(2) li a{
+    text-decoration: none;
+    padding: 0;
+    display: flex;
+    gap: 0.3rem;
+    align-items: center;
+    color: var(--Donkerblauw);
+}
+
+/******************************************************************/
+/* atf-home /* /* atf-home /* /* atf-home /* /* atf-home /* /* atf-home /* 
+/******************************************************************/
+.atf-home-phone{
+    display: none;
+}
+
+.atf-bg{
+    background-image: url("images/lachende-vrouw.jpg");
+    background-size: cover;
+    height: 63vh;
+    display: flex;
+    align-items: flex-end
+}
+
+.atf-home{
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.atf-home h2 span{
+    color: var(--Rood);
+}
+
+.atf-home h2{
+    margin-bottom: 1rem;
+}
+
+/* Formulier + tekst + button*/
+.atf-home section:first-of-type{
+    background-color: var(--Wit);
+    border-radius: 0 1.5rem 0 0;
+    height: fit-content;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* Formulier */
+.atf-home section:first-of-type form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+/* Invoervelden */
+#functie,
+#plaatsnaam-postcode,
+#vacatures-zoeken{
+    padding: 0.8rem 1rem;
+    border: solid 0.15rem var(--Donkerblauw);
+    border-radius: 10rem;
+}
+
+/* Invoervelden tekst*/
+#functie::placeholder,
+#plaatsnaam-postcode::placeholder {
+    color: rgba(137, 137, 137, 0.8);
+}
+
+/* Button */
+#vacatures-zoeken{
+background-color: var(--Rood);
+color: var(--Wit);
+border: solid 0.1rem var(--Wit);
+}
+
+/* Telefoonnummer */
+.atf-home a{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+/******************************************************************/
+/* Top vacatures/* /* Top vacatures/* /* Top vacatures/* /* Top vacatures/* 
+/******************************************************************/
+
+.top-vacatures {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* Titel + iconen */
+.top-vacatures a{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    text-decoration: none;
+}
+
+/* Pijl icoon groter */
+.fa-chevron-right{
+    font-size: 1.8rem;
+}
+
+/* vacatures 3x */
+.top-vacatures section:last-of-type{
+    display: flex;
+    gap: 3rem;
+}
+
+.top-vacatures section:last-of-type ul{
+    padding: 0;
+}
+
+.top-vacatures section:last-of-type ul li{
+    padding: 2rem;
+    border: red solid 2px;
+    border-radius: var(--roundborder);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* locatie */
+.top-vacatures section:last-of-type ul li p:first-of-type{
+    text-transform:uppercase;
+}
+
+.top-vacatures section:last-of-type ul li p:nth-of-type(2){
+    margin: 1rem 0;
+}
+
+/* buttons */
+.top-vacatures section:last-of-type ul li a{
+text-align: left;
+max-width: 48%;
+display: flex;
+flex-direction: row;
+gap: 1rem;
+align-items: center;
+}
+
+.top-vacatures section:last-of-type ul li a:last-of-type{
+background-color: var(--Wit);
+color: var(--Donkerblauw);
+border: solid 0.15rem var(--Donkerblauw);
+}
+
+
+/* hart icoon */
+.top-vacatures .fa-heart{
+    font-size: 1.2rem;
+}
+
+/******************************************************************/
+/* vakgebied/* /* vakgebied/* /* vakgebied/* /* vakgebied/* /* vakgebied/* 
+/******************************************************************/
+
+.vakgebieden{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.vakgebieden ul{
+    display: flex;
+    flex-wrap: wrap; 
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    gap: 2rem; 
+    width: 100%;
+}
+
+/* iconen + tekst */
+.vakgebieden ul li{
+    flex: 1 1 45%;
+    background-color: var(--Wit);
+    padding: 1rem 2rem; 
+    box-sizing: border-box; 
+
+}
+
+.vakgebieden ul li a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+}
+
+.vakgebieden h4{
+    font-weight: 400;
+}
+
+/* pijl icoon */
+.vakgebieden ul li a .fa-chevron-right{
+    margin-left: auto;
+}
+
+/* Button */
+.vakgebieden > a {
+    text-decoration: none;
+ }
+
+ /******************************************************************/
+/* Join the team /* /* Join the team /* /* Join the team /* /* Join the team /*
+/******************************************************************/
+
+/* Tekst links + beeld rechts */
+.join-interselektie{
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+
+}
+
+.join-interselektie > img{
+    border-radius: var(--roundborder);
+}
+
+/* Tekst links */
+.join-interselektie section{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+}
+
+/* Opsomming werken bij... */
+.join-interselektie section ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    padding: 0; /* Verwijder standaard padding */
+    margin: 0;
+    width: 90%;
+}
+
+.join-interselektie section ul li:nth-child(-n+2){
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    padding-bottom: 0.7rem;
+    border-bottom: solid 0.10rem var(--Donkerblauw);
+}
+
+/* Pijl icoon */
+.join-interselektie section ul li .fa-chevron-right{
+   font-size: 1.4rem;
+   align-items: center;
+   display: flex;
+}
+
+/* tekst opsomming */
+.join-interselektie section ul li h4{
+    font-weight: 400;
+}
+
+/* > icoon */
+.join-interselektie section ul li span{
+    color: var(--Rood);
+    font-weight: 600;
+}
+
+/* titel - interselektie */
+.join-interselektie h3 span{
+    color: var(--Rood);
+}
+
+/* Altijd de juist connectie - tekst */
+.join-interselektie section p{
+    width: 90%;
+}
+
+/* Lees verder */
+.join-interselektie section a{
+    color: red;
+}
+
+.join-interselektie section a p{
+    color: red;
+    text-transform: uppercase;
+}
+
+/* Altijd de juist connectie - alles groep */
+.join-interselektie section > section{
+    justify-self: flex-end;
+    display: flex;
+    gap: 1rem;
+    margin-top: auto;
+}
+
+ /******************************************************************/
+/* start-Selektie /* /* start-Selektie /* /* start-Selektie /* /* start-Selektie /* 
+/******************************************************************/
+
+/* I + Berichtenselektie titel */
+.berichtenselektie section{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.berichtenselektie h2 span{
+    color: var(--Rood);
+}
+
+/* titel + berichten */
+.berichtenselektie {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+/* horizontaal berichten */
+.berichtenselektie ul{
+    display: flex;
+    gap: 3rem;
+    padding: 0;
+}
+
+/* 1x bericht */
+.berichtenselektie ul li{
+   list-style: none;
+   display: flex;
+   flex-direction: column;
+   gap: 0.7rem;
+}
+
+.berichtenselektie ul li h5{
+    margin-bottom: 1.3rem;
+    color: var(--Donkergrijs);
+}
+
+.berichtenselektie ul li img{
+    padding: 0;
+    width: 100%;
+    margin-bottom: 1rem;
+ }
+
+ .berichtenselektie ul li a p,
+ .berichtenselektie ul li a{
+    color: var(--Rood);
+ }
+
+/******************************************************************/
+/* footer-top /* /* footer-top /* /* footer-top /* /* footer-top /* 
+/******************************************************************/
+.footer-top-phone{
+    display: none;
+    position: relative;
+}
+
+.footer-top{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding-top: 5rem;
+}
+
+.footer-top h3{
+    color: var(--Donkergrijs);
+}
+
+.footer-top p,
+.footer-top h2
+{
+    color: var(--Wit);
+}
+
+.footer-top h2 span{
+    font-weight: lighter;
+}
+
+.footer-top section{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex: 1;
+}
+
+.footer-top section section{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    /* background-color: rgb(8, 18, 100); */
+    height: 500px;
+   
+}
+
+
+
+
+.footer-top > section > section:nth-of-type(2) ul:first-of-type {
+    margin-bottom: 2rem;
+}
+
+.footer-top > section > section:nth-of-type(4) .fa-phone-flip {
+    color: white;
+}
+
+/* socials */
+.footer-top > section section:nth-of-type(4) ul:last-child{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;  
+    margin-top: 10rem;
+}
+
+
+
+.footer-top > section section:nth-of-type(4) ul:last-child li a{
+    text-decoration: none;
+    display: inline-block;
+    width: 2.5rem; 
+    height: 2.5rem;
+    text-align: center; /* Horizontaal centreren */
+    border: 0.2rem solid var(--Rood);
+    border-radius: 50%; /* Rond maken */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 1x icoon */
+.footer-top > section section:nth-of-type(4) ul:last-child li i{
+    font-size: 1.2rem;
+}
+
+/* man img */
+.footer-img{
+    position: relative;
+}
+
+
+.footer-img img{
+    position: absolute;
+    right: -6rem;
+    bottom: 0;
+}
+
+.footer-top section section ul{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.footer-top section section ul li{
+    list-style-type: none;
+}
+
+.footer-top section section ul li a{
+    text-decoration: none;
+}
+
+/* contact tekst */
+.footer-top > section section:nth-of-type(4) li p{
+    font-weight: normal;
+    color: white;
+}
+
+/******************************************************************/
+/* footer-bottom /* /* footer-bottom /* /* footer-bottom /* /* footer-bottom /*
+/******************************************************************/
+
+.footer-bottom-phone{
+    display: none;
+}
+
+.footer-bottom{
+    margin: 3rem 0;
+}
+
+.footer-bottom ul{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    padding: 0;
+}
+
+.footer-bottom ul li{
+    list-style-type: none;
+}
+
+.footer-bottom ul li a{
+    text-decoration: none;
+}
+
+.footer-bottom ul li a p{
+    color: var(--Donkergrijs);
+}
+
+
+
+
+
+
+
+
+
+
+
+/******************************************************************/
+/* Media Queries Desktop */ /* Media Queries   /* Media Queries
+/******************************************************************/
+
+
+/* @media only screen and (min-width: 768px) and (max-width: 1080px) {
+
+} */
+
+@media only screen and (min-width: 168px) and (max-width: 768px) {
+
+    
+    h1{
+        font-size: 3rem;
+        margin-left: 0;
+        align-self: flex-start;
+        margin-left: 2rem;
+        margin-bottom: 30%;
+    }
+        
+    
+    h2{
+        font-size: 2.3rem;
+        font-weight: 400;
+    }
+    
+    h3{
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+    
+    h4{
+        font-size: 1.45rem;
+        font-weight: lighter;
+    }
+    
+    h5,
+    #vacatures-zoeken,
+    #functie,
+    #plaatsnaam-postcode{
+        font-size: 1.2rem;
+        font-weight: lighter;
+    }
+    
+    p{
+        font-size: 1rem;
+        font-weight: lighter;
+        line-height: 1.6rem;
+    }
+
+
+.top-vacatures,
+.vakgebieden,
+.join-interselektie
+{
+    padding: 0 2.5rem;
+}
+
+
+.vakgebieden,
+.berichtenselektie,
+.footer-top-phone{
+    padding: 3rem 2rem;
+}
+
+/* header */  /* header */  /* header */  /* header */  /* header */  /* header */ 
+/* header */  /* header */  /* header */  /* header */  /* header */  /* header */   
+
+header section:nth-of-type(1){
+    display: none;
+}
+
+header nav{
+    display: none;
+}
+
+header section:nth-of-type(2) > a:nth-of-type(1),
+header section:nth-of-type(2) > a:nth-of-type(3){
+display: block;
+}
+
+header{
+    padding: 3rem 2rem 0 2rem;
+}
+
+/* ATF-home */ /* ATF-home */ /* ATF-home */ /* ATF-home */ /* ATF-home */ /* ATF-home */ 
+/* ATF-home */ /* ATF-home */ /* ATF-home */ /* ATF-home */ /* ATF-home */ /* ATF-home */ 
+
+/* Computer formaat */
+.atf-bg > section:first-of-type{
+    display: none;
+}
+
+/* image bg */
+.atf-bg{
+    height: 75vh;
+    background-size: cover;
+    background-position: 30%;
+}
+
+/* Red-bg form */
+.red-bg-form{
+    background-color: var(--Rood);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* titel + form */
+.atf-home-phone{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+}
+
+/* form */
+.atf-home-phone form{
+    background-color: white;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    border-radius: var(--roundborder);
+    margin: -8rem 2rem 0 2rem;
+}
+
+/* telefoonnummer */
+.atf-home-phone a {
+    align-self: center;
+    text-decoration: none;
+    padding-bottom: 2rem;
+}
+
+.atf-home-phone a h4,
+.atf-home-phone a i{
+    color: var(--Wit);
+}
+
+
+
+
+/* top-vacatures */ /* top-vacatures */ /* top-vacatures */ /* top-vacatures /* top-vacatures */
+/* top-vacatures */ /* top-vacatures */ /* top-vacatures */ /* top-vacatures /* top-vacatures */
+
+/* arrow icoon */
+.top-vacatures > a i:last-of-type{
+    margin-left: auto;
+}
+
+/* buttons */
+.top-vacatures section:last-of-type ul li a{
+    max-width: 56%;
+}
+
+/* 2+3 top-vacatures */
+.top-vacatures section ul:nth-of-type(2),
+.top-vacatures section ul:nth-of-type(3){
+ display: none;
+}
+
+/* Vakgebieden */ /* Vakgebieden */ /* Vakgebieden */ /* Vakgebieden */ /* Vakgebieden */ 
+/* Vakgebieden */ /* Vakgebieden */ /* Vakgebieden */ /* Vakgebieden */ /* Vakgebieden */ 
+
+
+.vakgebieden h2{
+    text-align: center;
+    /* font-size: 1.5rem; */
+    font-weight: 400;
+    width: 80%;
+}
+
+.vakgebieden ul li:last-of-type{
+    display: none;
+}
+
+/* join-interselektie */ /* join-interselektie */ /* join-interselektie */ /* join-interselektie */ 
+/* join-interselektie */ /* join-interselektie */ /* join-interselektie */ /* join-interselektie */ 
+
+.join-interselektie{
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+.join-interselektie ul{
+    padding-bottom: 5rem !important;
+}
+
+/* berichten-interselektie */ /* berichten-interselektie */ /* berichten-interselektie */ /* berichten-interselektie */ 
+/* berichten-interselektie */ /* berichten-interselektie */ /* berichten-interselektie */ /* berichten-interselektie */ 
+
+.berichtenselektie ul li:nth-of-type(2),
+.berichtenselektie ul li:nth-of-type(3){
+display:none;
+
+}
+
+/* footer-top */   /* footer-top */   /* footer-top */   /* footer-top */   
+/* footer-top */   /* footer-top */   /* footer-top */   /* footer-top */  
+
+.footer-top{
+    display: none;
+}
+
+.footer-top-phone{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--Donkergrijs)
+}
+
+.footer-top-phone img{
+width: 20rem;
+height: auto;
+position: absolute;
+bottom: -6rem;
+right: 0;
+z-index: 0;
+}
+
+.footer-top-phone ul{
+    padding: 0;
+    list-style: none;
+}
+
+.footer-top-phone ul li p,
+.footer-top-phone h3,
+.fa-phone-flip{
+    color: var(--Wit);
+}
+
+.footer-top-phone ul li a{
+    text-decoration: none;
+}
+
+
+ /* footer-bottom */ /* footer-bottom */ /* footer-bottom */ /* footer-bottom */
+/* footer-bottom */ /* footer-bottom */ /* footer-bottom */ /* footer-bottom */
+
+
+/* lijst + socials */
+.footer-bottom-phone{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--Donkerblauw);
+    z-index: 2;
+        position: relative;
+}
+
+/* lijst */
+.footer-bottom-phone ul:first-of-type{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-decoration: none;
+    padding: 2rem 2.5rem;
+}
+
+.footer-bottom-phone ul:first-of-type li{
+    list-style: none;
+    border-bottom: solid 1px var(--Donkergrijs);
+}
+
+.footer-bottom-phone ul li a{
+    text-decoration: none;
+}
+
+.footer-bottom-phone ul li a p{
+    color: var(--Donkergrijs);
+}
+
+
+/* socials */
+.footer-bottom-phone ul:nth-of-type(2){
+    list-style: none;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;  
+}
+
+.footer-bottom-phone ul:nth-of-type(2) li a{
+text-decoration: none;
+display: inline-block;
+width: 1.5rem;
+height: 1.5rem;
+text-align: center;
+border: 0.1rem solid var(--Rood);
+border-radius: 50%;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+
+
+
+/* disclaimer etc. */
+.footer-bottom ul{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: normal;
+}
+
+.footer-bottom{
+    padding: 2rem;
+    margin: 0;
+    background-color: var(--Donkerblauw);
+}
+
+.footer-bottom p{
+    font-size: 0.65rem;
+    line-height: 0.8rem;
+    color: var(--Donkergrijs);
+}
+
+
+}
