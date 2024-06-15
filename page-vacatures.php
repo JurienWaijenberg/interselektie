@@ -127,4 +127,10 @@
 
 </section>
 
+<section class="meer-weten max-width">
+    <h2>Meer weten over onze vacatures?</h2>
+    <p>Heb je vragen over specifieke vacatures of kunnen we je helpen bij het vinden van de juiste baan?<br> Maak een afspraak met een van onze intercedenten.</p>
+    <a href="tel:0756218845">075 - 621 88 45</a>
+</section>
+
 <?php get_footer(); ?>
