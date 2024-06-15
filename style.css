@@ -8,6 +8,7 @@
     max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
+    padding: 0em 2em;
 }
 
 .max-width-small {
@@ -251,7 +252,7 @@ header section:nth-of-type(2) li a{
 }
 
 .atf-bg{
-    background-image: url("images/lachende-vrouw.jpg");
+    background-image: url("http://interselektie.local/wp-content/uploads/2024/06/lachende-vrouw.jpg");
     background-size: cover;
     height: 63vh;
     display: flex;
