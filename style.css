@@ -55,7 +55,8 @@ h3,
 h4,
 h5,
 p,
-a{
+a,
+li{
     font-family: Helvetica, Arial, sans-serif;
     color: var(--Donkerblauw);
 }
@@ -86,12 +87,19 @@ h4{
 h5,
 #vacatures-zoeken,
 #functie,
-#plaatsnaam-postcode{
+#plaatsnaam-postcode,
+.button-red{
     font-size: 1.2rem;
     font-weight: lighter;
 }
 
 p{
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 1.6rem;
+}
+
+li {
     font-size: 1rem;
     font-weight: lighter;
     line-height: 1.6rem;
@@ -157,6 +165,19 @@ p{
 /******************************************************************/
 /* Header Top /*    /* Header Top /*    /* Header Top /*    /* Header Top /*
 /******************************************************************/
+
+header{
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    z-index: 99999;
+}
+
+main {
+    padding-top: 135px;
+}
+
+
 header section:nth-of-type(1){
     display: flex;
     justify-content: flex-end;
@@ -220,8 +241,8 @@ header section:nth-of-type(2){
     display: flex;
     justify-content: space-between;
     align-items:  center;
-    width: 100%;
-    padding: 1rem 0;
+    width: auto;
+    padding: 1rem;
 }
 
 /* Logo */
@@ -297,7 +318,8 @@ header section:nth-of-type(2) li a{
 /* Invoervelden */
 #functie,
 #plaatsnaam-postcode,
-#vacatures-zoeken{
+#vacatures-zoeken,
+.button-red{
     padding: 0.8rem 1rem;
     border: solid 0.15rem var(--Donkerblauw);
     border-radius: 10rem;
@@ -314,6 +336,14 @@ header section:nth-of-type(2) li a{
 background-color: var(--Rood);
 color: var(--Wit);
 border: solid 0.1rem var(--Wit);
+}
+
+.button-red {
+    background-color: var(--Rood);
+    color: var(--Wit);
+    border: solid 0.1rem var(--Wit);
+    text-align: center;
+    display: block !important;
 }
 
 /* Telefoonnummer */
@@ -594,6 +624,11 @@ border: solid 0.15rem var(--Donkerblauw);
 /******************************************************************/
 /* footer-top /* /* footer-top /* /* footer-top /* /* footer-top /* 
 /******************************************************************/
+
+footer > section:nth-child(2){
+    background-color: var(--Wit);
+}
+
 .footer-top-phone{
     display: none;
     position: relative;
@@ -687,6 +722,7 @@ border: solid 0.15rem var(--Donkerblauw);
     position: absolute;
     right: -6rem;
     bottom: 0;
+    width: 530px;
 }
 
 .footer-top section section ul{
@@ -719,7 +755,7 @@ border: solid 0.15rem var(--Donkerblauw);
 }
 
 .footer-bottom{
-    margin: 3rem 0;
+    padding: 3rem 0;
 }
 
 .footer-bottom ul{
@@ -747,7 +783,11 @@ border: solid 0.15rem var(--Donkerblauw);
 
 
 
-
+@media only screen and (max-width: 1024px) {
+    .footer-img img {
+        width: 380px;
+    }
+}
 
 
 
@@ -791,7 +831,8 @@ border: solid 0.15rem var(--Donkerblauw);
     h5,
     #vacatures-zoeken,
     #functie,
-    #plaatsnaam-postcode{
+    #plaatsnaam-postcode,
+    .button-red{
         font-size: 1.2rem;
         font-weight: lighter;
     }
@@ -834,7 +875,13 @@ display: block;
 }
 
 header{
-    padding: 3rem 2rem 0 2rem;
+    position: fixed;
+    width: 100%;
+    background: #fff;
+}
+
+main {
+    padding-top: 90px;
 }
 
 /* ATF-home */ /* ATF-home */ /* ATF-home */ /* ATF-home */ /* ATF-home */ /* ATF-home */ 
@@ -964,12 +1011,12 @@ display:none;
 }
 
 .footer-top-phone img{
-width: 20rem;
-height: auto;
-position: absolute;
-bottom: -6rem;
-right: 0;
-z-index: 0;
+    width: 8rem;
+    height: auto;
+    position: absolute;
+    bottom: -5rem;
+    right: 0;
+    z-index: 0;
 }
 
 .footer-top-phone ul{
@@ -1007,7 +1054,7 @@ z-index: 0;
     flex-direction: column;
     gap: 0.5rem;
     text-decoration: none;
-    padding: 2rem 2.5rem;
+    padding: 2rem 0rem;
 }
 
 .footer-bottom-phone ul:first-of-type li{
@@ -1027,7 +1074,7 @@ z-index: 0;
 /* socials */
 .footer-bottom-phone ul:nth-of-type(2){
     list-style: none;
-    padding-bottom: 2rem;
+    padding: 1rem 0rem;
     display: flex;
     flex-direction: row;
     gap: 1rem;  

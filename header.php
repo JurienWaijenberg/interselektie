@@ -33,9 +33,9 @@
         <!--header-bottom-->
         <section class="max-width">
             
-            <a href="index.html"><i class="fa-solid fa-user"></i></a>
-            <a href="index.html"><img src="http://interselektie.local/wp-content/uploads/2024/06/Logo-Interselektie.png" alt="Logo Interselektie"></a>
-            <a href="index.html"><i class="fa-solid fa-user"></i></a>
+            <a href="#"><i class="fa-solid fa-user"></i></a>
+            <a href="/"><img src="http://interselektie.local/wp-content/uploads/2024/06/Logo-Interselektie.png" alt="Logo Interselektie"></a>
+            <a href="#"><i class="fa-solid fa-user"></i></a>
             <nav>
                 <ul>
                     <li><a href="x"><h4>Over Interselektie</h4><i class="fa-solid fa-chevron-down"></i></a></li>

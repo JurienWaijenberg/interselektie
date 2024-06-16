@@ -30,7 +30,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    width: auto;
     margin-top: -5em;
 }
 
@@ -189,4 +189,40 @@
 .meer-weten a {
     color: var(--Rood);
     text-decoration: none;
+}
+
+.vacature-info {
+    position: relative;
+}
+
+.vacature-sticky {
+    position: sticky;
+    top: 200px;
+}
+
+.vacature-single {
+    align-items: unset;
+    gap: 2rem;
+}
+
+.vacature-single > section:nth-child(1) {
+    margin-top: 5rem;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .vacatures-intro {
+        flex-direction: column;
+    }
+
+    .vacatures-resultaten {
+        flex-direction: column-reverse;
+    }
+
+    .vacature-single {
+        flex-direction: column-reverse;
+    }
+    .vacature-single > section:nth-child(1) {
+        margin-top: 0;
+    }
 }

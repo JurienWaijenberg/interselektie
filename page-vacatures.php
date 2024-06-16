@@ -7,22 +7,6 @@
         
     </section>
 
-    <section class="atf-home-phone">
-
-        <section class="red-bg-form">
-            <form action="/action_page.php">
-                <input type="text" id="functie" placeholder="&#xF002;  Functie" style="font-family:Helvetica, Arial, sans-serif, FontAwesome" />
-                <input type="text" id="plaatsnaam-postcode" placeholder="&#xF002;  Plaatsnaam of postcode" style="font-family:Helvetica, Arial, sans-serif, FontAwesome" />
-                <input type="submit" id="vacatures-zoeken" value="Vacatures zoeken">
-            </form>
-
-            <a class="tel-nummer" href="x"><h4><i class="fa-solid fa-phone-flip"></i> 075 - 621 88 45</h4></a>
-        </section>	
-
-        
-
-    </section>
-
 </section>
 
 <section class="max-width vacatures-intro">
@@ -47,7 +31,7 @@
                 <input type="submit" id="vacatures-zoeken" value="Vacatures zoeken">
             </form>
 
-            <a class="tel-nummer" href="x"><h4><i class="fa-solid fa-phone-flip"></i> 075 - 621 88 45</h4></a>
+            <a class="tel-nummer" href="tel:0756218845"><h4><i class="fa-solid fa-phone-flip"></i> 075 - 621 88 45</h4></a>
         </section>
     </section>
 </section>
@@ -61,8 +45,8 @@
                 <h3>Werkvoorbereider/ Calculator elektrotechniek</h3>
                 <p><i class="fa-solid fa-location-dot"></i> Amsterdam </p>
                 <p>Ben jij op zoek naar een nieuwe uitdaging in de productie? Interselektie is op zoek naar een enthousiaste verpakkingsoperator…</p>
-                <a href="x">Bekijk vacature</a>
-                <a href="x">Bewaar vacature <i class="fa-regular fa-heart"></i></a>
+                <a href="http://interselektie.local/vacature-single/">Bekijk vacature</a>
+                <a href="#">Bewaar vacature <i class="fa-regular fa-heart"></i></a>
             </li>
         </ul>
 
@@ -71,8 +55,8 @@
                 <h3>Werkvoorbereider/ Calculator elektrotechniek</h3>
                 <p><i class="fa-solid fa-location-dot"></i> Amsterdam </p>
                 <p>Ben jij op zoek naar een nieuwe uitdaging in de productie? Interselektie is op zoek naar een enthousiaste verpakkingsoperator…</p>
-                <a href="x">Bekijk vacature</a>
-                <a href="x">Bewaar vacature <i class="fa-regular fa-heart"></i></a>
+                <a href="http://interselektie.local/vacature-single/">Bekijk vacature</a>
+                <a href="#">Bewaar vacature <i class="fa-regular fa-heart"></i></a>
             </li>
         </ul>
 
@@ -81,8 +65,8 @@
                 <h3>Werkvoorbereider/ Calculator elektrotechniek</h3>
                 <p><i class="fa-solid fa-location-dot"></i> Amsterdam </p>
                 <p>Ben jij op zoek naar een nieuwe uitdaging in de productie? Interselektie is op zoek naar een enthousiaste verpakkingsoperator…</p>
-                <a href="x">Bekijk vacature</a>
-                <a href="x">Bewaar vacature <i class="fa-regular fa-heart"></i></a>
+                <a href="http://interselektie.local/vacature-single/">Bekijk vacature</a>
+                <a href="#">Bewaar vacature <i class="fa-regular fa-heart"></i></a>
             </li>
         </ul>
     </section>

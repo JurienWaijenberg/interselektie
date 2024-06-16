@@ -15,7 +15,7 @@
             <input type="submit" id="vacatures-zoeken" value="Vacatures zoeken">
         </form>
 
-        <a href="x"><h4><i class="fa-solid fa-phone-flip"></i> 075 - 621 88 45</h4></a>
+        <a href="#"><h4><i class="fa-solid fa-phone-flip"></i> 075 - 621 88 45</h4></a>
     </section>
 </section>
 
@@ -29,7 +29,7 @@
             <input type="submit" id="vacatures-zoeken" value="Vacatures zoeken">
         </form>
 
-        <a href="x"><h4><i class="fa-solid fa-phone-flip"></i> 075 - 621 88 45</h4></a>
+        <a href="#"><h4><i class="fa-solid fa-phone-flip"></i> 075 - 621 88 45</h4></a>
     </section>	
 
     
@@ -45,7 +45,7 @@
 <section class="top-vacatures max-width">
 
 
-    <a href="x">
+    <a href="#">
         <i class="fa-solid fa-circle"></i>
         <h2>Top vacatures</h2>
         <i class="fa-solid fa-chevron-right"></i>
@@ -59,8 +59,8 @@
             <h3>Werkvoorbereider/ Calculator elektrotechniek</h3>
             <p><i class="fa-solid fa-location-dot"></i> Amsterdam </p>
             <p>Ben jij op zoek naar een nieuwe uitdaging in de productie? Interselektie is op zoek naar een enthousiaste verpakkingsoperator…</p>
-            <a href="x">Bekijk vacature</a>
-            <a href="x">Bewaar vacature <i class="fa-regular fa-heart"></i></a>
+            <a href="http://interselektie.local/vacature-single/">Bekijk vacature</a>
+            <a href="#">Bewaar vacature <i class="fa-regular fa-heart"></i></a>
         </li>
     </ul>
 
@@ -69,8 +69,8 @@
             <h3>Werkvoorbereider/ Calculator elektrotechniek</h3>
             <p><i class="fa-solid fa-location-dot"></i> Amsterdam </p>
             <p>Ben jij op zoek naar een nieuwe uitdaging in de productie? Interselektie is op zoek naar een enthousiaste verpakkingsoperator…</p>
-            <a href="x">Bekijk vacature</a>
-            <a href="x">Bewaar vacature <i class="fa-regular fa-heart"></i></a>
+            <a href="http://interselektie.local/vacature-single/">Bekijk vacature</a>
+            <a href="#">Bewaar vacature <i class="fa-regular fa-heart"></i></a>
         </li>
     </ul>
 
@@ -79,8 +79,8 @@
             <h3>Werkvoorbereider/ Calculator elektrotechniek</h3>
             <p><i class="fa-solid fa-location-dot"></i> Amsterdam </p>
             <p>Ben jij op zoek naar een nieuwe uitdaging in de productie? Interselektie is op zoek naar een enthousiaste verpakkingsoperator…</p>
-            <a href="x">Bekijk vacature</a>
-            <a href="x">Bewaar vacature <i class="fa-regular fa-heart"></i></a>
+            <a href="http://interselektie.local/vacature-single/">Bekijk vacature</a>
+            <a href="#">Bewaar vacature <i class="fa-regular fa-heart"></i></a>
         </li>
     </ul>
 </section>
@@ -93,7 +93,7 @@
     <h2>Op zoek naar een baan in jouw vakgebied?</h2>
     <ul>
         <li>
-            <a href="x">
+            <a href="#">
                 <img id="favicon"
                 src="http://interselektie.local/wp-content/uploads/2024/06/favicon.svg" alt="">
                 <h4>Techniek</h4>
@@ -101,7 +101,7 @@
             </a>
         </li>
         <li>
-            <a href="x">
+            <a href="#">
                 <img id="favicon"
                 src="http://interselektie.local/wp-content/uploads/2024/06/favicon.svg" alt="">
                 <h4>Productie</h4>
@@ -109,7 +109,7 @@
             </a>
         </li>
         <li>
-            <a href="x">
+            <a href="#">
                 <img id="favicon"
                 src="http://interselektie.local/wp-content/uploads/2024/06/favicon.svg" alt="">
                 <h4>Administratie</h4>
@@ -117,7 +117,7 @@
             </a>
         </li>
         <li>
-            <a href="x">
+            <a href="#">
                 <img id="favicon"
                 src="http://interselektie.local/wp-content/uploads/2024/06/favicon.svg" alt="">
                 <h4>Zorg</h4>
@@ -125,7 +125,7 @@
             </a>
         </li>
         <li>
-            <a href="x">
+            <a href="#">
                 <img id="favicon"
                 src="http://interselektie.local/wp-content/uploads/2024/06/favicon.svg" alt="">
                 <h4>Klantenservice</h4>
@@ -133,7 +133,7 @@
             </a>
         </li>						
         <li>
-            <a href="x">
+            <a href="#">
                 <img id="favicon"
                 src="http://interselektie.local/wp-content/uploads/2024/06/favicon.svg" alt="">
                 <h4>Logistiek</h4>
