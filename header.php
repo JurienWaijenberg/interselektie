@@ -23,7 +23,7 @@
                     <li><i class="fa-solid fa-heart"></i></li>
                     <li>
                         <i class="fa-solid fa-user"></i>
-                        <a href="x">
+                        <a href="#">
                             <h4>Inloggen</h4>
                         </a>
                     </li>
@@ -38,11 +38,12 @@
             <a href="#"><i class="fa-solid fa-user"></i></a>
             <nav>
                 <ul>
-                    <li><a href="x"><h4>Over Interselektie</h4><i class="fa-solid fa-chevron-down"></i></a></li>
-                    <li><a href="x"><h4>Werknemer</h4><i class="fa-solid fa-chevron-down"></i></a></li>
-                    <li><a href="x"><h4>Werkgever</h4><i class="fa-solid fa-chevron-down"></i></a></li>
-                    <li><a href="x"><h4>Berichten</h4></a></li>
-                    <li><a href="x"><h4>Contact</h4><i class="fa-solid fa-chevron-down"></i></a></li>
+                    <li><a href="#"><h4>Over Interselektie</h4><i class="fa-solid fa-chevron-down"></i></a></li>
+                    <li><a href="#"><h4>Werknemer</h4><i class="fa-solid fa-chevron-down"></i></a></li>
+                    <li><a href="#"><h4>Werkgever</h4><i class="fa-solid fa-chevron-down"></i></a></li>
+                    <!-- <li><a href="#"><h4>Berichten</h4></a></li> -->
+                    <li><a href="http://interselektie.local/vacatures/"><h4>Vacatures</h4></a></li>
+                    <li><a href="#"><h4>Contact</h4><i class="fa-solid fa-chevron-down"></i></a></li>
                 </ul>
             </nav>
         </section>

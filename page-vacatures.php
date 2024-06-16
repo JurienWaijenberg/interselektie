@@ -14,7 +14,6 @@
         <a class="header-dot" href="#">
             <i class="fa-solid fa-circle"></i>
             <h2>Vacatures voor jou geselekteerd</h2>
-            <i class="fa-solid fa-chevron-right"></i>
         </a>
         <p>
         Ben jij op zoek naar een nieuwe uitdaging in de productie? Voor een bedrijf gevestigd in Zaanstad is Interselektie op zoek naar een enthousiaste verpakkingsoperator om het  team te versterken! Als operator verpakken ben je verantwoordelijk voor het efficiënt en nauwkeurig verpakken van producten. Je werkt binnen een productieomgeving en zorgt ervoor dat de verpakkingslijn optimaal functioneert…
