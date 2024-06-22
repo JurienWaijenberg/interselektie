@@ -12,15 +12,27 @@
 /* margin/padding boven/onder section /* /* margin/padding boven/onder section /* 
 /******************************************************************/
 
+* {
+    margin: 0;
+}
+
+.max-width {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* extra ruimte boven/onder section (met max-width)*/
-.top-vacatures{
+.top-vacatures,
+.borderWaaromInterselektie{
     margin-bottom: 3rem;
     margin-top: 3rem;
 }
 
 /* extra ruimte boven/onder section (met bg)*/
 .vakgebieden,
-.berichtenselektie{
+.berichtenselektie,
+.usp{
     padding-bottom: 5rem;
     padding-top: 5rem;
 }
@@ -30,6 +42,11 @@
 .werkgeverCards{
     margin-bottom: 5rem;
     margin-top: 5rem;
+}
+
+.fa-check{
+    color: var(--Rood);
+    font-size: 1.5rem;
 }
 
 
@@ -164,6 +181,113 @@ gap: 1.5rem;
     flex-direction: column;
     gap: 1.5rem;
  }
+
+/******************************************************************/
+/* USP"S /* /* USP"S /* /* USP"S /* /* USP"S /* /* USP"S /* /* USP"S /* 
+/******************************************************************/
+
+/* section */
+.usp{
+display: flex;
+flex-direction: column;
+gap: 5rem;
+}
+
+/* titel */
+.usp h2{
+    text-align: center;  
+}
+
+/* 3x usp */
+.usp ul{
+    display: flex;
+    gap: 8rem;
+    list-style-type: none;
+    justify-content: center;
+    padding: 0;
+}
+
+/* 1x usp */
+.usp ul li{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+}
+
+/* red bg icon + icon */
+.usp ul li div{
+    background-color: var(--Rood);
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    align-items: center;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    padding: 1rem;
+    margin-bottom: 1.2rem;
+}
+
+/******************************************************************/
+/* Waarom Interselektie /* /* Waarom Interselektie /* /* Waarom Interselektie /* 
+/******************************************************************/
+
+.borderWaaromInterselektie{
+    border: red solid 2px;
+    border-radius: var(--roundborder);
+}
+
+.waaromInterselektie{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    /* border: red solid 2px;
+    border-radius: var(--roundborder); */
+    padding: 3rem;
+    position: relative;
+}
+
+.waaromInterselektie ul{
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    width: fit-content;
+}
+
+.waaromInterselektie ul li{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.waaromInterselektie h2{
+    width: fit-content;
+}
+
+.redBtn{
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 1.6rem;
+    /* min-height: auto; */
+    color: var(--Wit);
+    background-color: var(--Rood);
+    padding: 0.6rem 2.5rem;
+    border-radius: 10rem;
+    text-decoration: none; 
+}
+
+.btnWaaromInterselektie{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
 
 /******************************************************************/
 /* Media Queries Desktop */ /* Media Queries   /* Media Queries

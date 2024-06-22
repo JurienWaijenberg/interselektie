@@ -38,12 +38,6 @@
     </p>
 </section>
 
-
-<!-- <section class="werkgeverCards max-width">
-
-</section> -->
-
-
 <section class="werkgeverCards max-width">
     <ul>
 		<li>
@@ -71,11 +65,83 @@
                 <h3>Werving en Selectie</h3>
                 <p>Geen tijd om zelf personeel te werven? 
                 Dan biedt werving en selectie de oplossing. Laten we samen kijken hoe werving en selectie u kan helpen!</p>
-                <a href=""><p>Lees verder</p></a>
+                <a href=""><p>Meer informatie</p></a>
             </div>
 		</li>
 	</ul>
 </section>
+
+<section class="light-grey-bg">
+    <section class="usp max-width">
+        <h2>Uw bemiddelaar voor vast of flexibel personeel</h2>
+        <ul>
+            <li>
+                <div>
+                    <img src="http://interselektie.local/wp-content/uploads/2024/06/kandidaten.svg" alt="">
+                </div>
+                <h3>Snel matchende Service</h3>
+                <p>Direct, Persoonlijk, Efficiënt</p>
+            </li>
+            <li>
+                <div>
+                    <img src="http://interselektie.local/wp-content/uploads/2024/06/kandidaten.svg" alt="">
+                </div>
+                <h3>Circa 200.000</h3>
+                <p>Potentiële kandidaten voor u</p>
+            </li>
+            <li>
+                <div>
+                    <img src="http://interselektie.local/wp-content/uploads/2024/06/kandidaten.svg" alt="">
+                </div>
+                <h3>Expertise in 14 Sectoren</h3>
+                <p>van Productie tot Zorg</p>
+            </li>
+        </ul>
+    </section>
+</section>
+
+<section class="borderWaaromInterselektie max-width">
+    <section class="waaromInterselektie">
+        <h2>Waarom Interselektie als uitzendbureau</h2>
+        <ul>
+            <li>
+                <i class="fa-solid fa-check"></i>
+                <p>Gespecialiseerd in vrijwel alle branches en vakgebieden</p>
+            </li>
+            <li>
+                <i class="fa-solid fa-check"></i>
+                <p>Ontloop administratieve lasten; <br>
+                wij nemen uw salarisverwerking voor onze rekening</p>
+            </li>
+            <li>
+                <i class="fa-solid fa-check"></i>
+                <p>Persoonlijk contact met één van onze ervaren medewerkers</p>
+            </li>
+
+            <li>
+                <i class="fa-solid fa-check"></i>
+                <p>Maximale inspanning van ons en minimale inspanning van jou</p>
+            </li>
+            <li>
+                <i class="fa-solid fa-check"></i>
+                <p>No cure, no pay. Je betaalt alleen voor de gewerkte uren. <br>
+                Je aanvraag is dus altijd vrijblijvend.</p>
+            </li>
+            <li>
+                <i class="fa-solid fa-check"></i>
+                <p>Flexibiliteit en een oplossing die volledig op jouw bedrijf is afgestemd</p>
+            </li>
+        </ul> 
+</section>
+</section>
+
+<section class="btnWaaromInterselektie max-width">  
+    <a href="x" class="redBtn">Vacature aanmelden</a> 
+</section>
+
+
+
+
 
 
 
