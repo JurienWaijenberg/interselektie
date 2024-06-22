@@ -140,6 +140,78 @@
 </section>
 
 
+<section class="samenwerken max-width">
+    <section>
+        <h2>Interesse in samenwerken?</h2>
+        <p>Wij staan klaar om met u mee te denken en een op maat gemaakte dienstverlening te bieden die perfect aansluit bij uw behoeften en wensen.</p>
+        <a href="x" class="redBtn">Neem contact op</a> 
+    </section>
+    <section>
+        <img src="http://interselektie.local/wp-content/uploads/2024/06/lachende-vrouw.jpg" alt="">
+    </section>
+</section> 
+
+<section class="light-grey-bg">
+			<!--Zoek op vakgebieden-->
+	<section class="vakgebieden max-width-small">
+		<h2>Op zoek naar een baan in jouw vakgebied?</h2>
+		<ul>
+			<li>
+				<a href="x">
+                    <img id="favicon"
+                    src="images/favicon.svg" alt="">
+                    <h4>Techniek</h4>
+                    <i class="fa-solid fa-chevron-right"></i>
+				</a>
+			</li>
+			<li>
+				<a href="x">
+                    <img id="favicon"
+                    src="images/favicon.svg" alt="">
+                    <h4>Productie</h4>
+                    <i class="fa-solid fa-chevron-right"></i>
+				</a>
+			</li>
+			<li>
+				<a href="x">
+					<img id="favicon"
+					src="images/favicon.svg" alt="">
+					<h4>Administratie</h4>
+					<i class="fa-solid fa-chevron-right"></i>
+				</a>
+			</li>
+			<li>
+				<a href="x">
+					<img id="favicon"
+					src="images/favicon.svg" alt="">
+					<h4>Zorg</h4>
+					<i class="fa-solid fa-chevron-right"></i>
+			    </a>
+			</li>
+			<li>
+				<a href="x">
+					<img id="favicon"
+					src="images/favicon.svg" alt="">
+					<h4>Klantenservice</h4>
+					<i class="fa-solid fa-chevron-right"></i>
+				</a>
+			</li>						
+			<li>
+				<a href="x">
+				    <img id="favicon"
+					src="images/favicon.svg" alt="">
+					<h4>Logistiek</h4>
+					<i class="fa-solid fa-chevron-right"></i>
+				</a>
+			</li>
+
+		</ul>
+		<a href="">Bekijk alle vakgebieden</a>
+		</section>
+
+</section>
+
+
 
 
 
