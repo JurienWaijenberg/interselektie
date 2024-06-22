@@ -72,7 +72,30 @@
 
     <section class="vacatures-filter">
         <section class="filters">
-
+            <form action="" method="get">
+                <label for="opleidingsniveau">Opleidingsniveau
+                    <select name="Opleidingsniveau" id="opleidingsniveau">
+                        <option value="select">Niveau</option>
+                        <option value="javascript">JavaScript</option>
+                        <option value="php">PHP</option>
+                    </select>
+                </label>
+                <label for="vakgebied">Vakgebied
+                    <select name="Vakgebied" id="vakgebied">
+                        <option value="select">Logistiek</option>
+                        <option value="javascript">JavaScript</option>
+                        <option value="php">PHP</option>
+                    </select>
+                </label>
+                <label for="dienstverband">Dienstverband
+                    <select name="Dienstverband" id="dienstverband">
+                        <option value="select">Tijdelijk/vast</option>
+                        <option value="javascript">JavaScript</option>
+                        <option value="php">PHP</option>
+                    </select>
+                </label>
+                <input class="button-red" type="submit" value="Filters toepassen" />
+            </form>
         </section>
         <section class="open-sollicitatie">
 

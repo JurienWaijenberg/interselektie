@@ -214,6 +214,47 @@
     padding: 0;
 }
 
+/******************************************************************/
+/* Vacatures filter /* /* Vacatures filter /* /* Vacatures filter /*
+/******************************************************************/
+
+.vacatures-filter {
+    & section  {
+        padding: 2.5em;
+    }
+
+    & form {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        font-family: Helvetica, Arial, sans-serif, FontAwesome;
+
+        & label {
+            padding: 0rem 1rem;
+            border: solid 0.15rem var(--Donkerblauw);
+            border-radius: 10rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: baseline;
+
+            & select {
+                border: 0px;
+                cursor: pointer;
+                font-family: Helvetica, Arial, sans-serif, FontAwesome;
+                min-width: 10em;
+                padding: 0.8rem 1rem;
+            }
+        }
+
+        & input {
+            cursor: pointer;
+        }
+    }
+
+
+}
+
 
 @media only screen and (max-width: 768px) {
     .vacatures-intro {
