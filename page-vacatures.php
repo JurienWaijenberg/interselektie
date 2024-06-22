@@ -41,10 +41,10 @@
     <section class="vacatures">
         <ul>
             <li>
-                <h3>Werkvoorbereider/ Calculator elektrotechniek</h3>
-                <p><i class="fa-solid fa-location-dot"></i> Amsterdam </p>
+                <h3>Zelfstandig elektromonteur woningbouw (regio Zaanstad)</h3>
+                <p><i class="fa-solid fa-location-dot"></i> Zaandam </p>
                 <p>Ben jij op zoek naar een nieuwe uitdaging in de productie? Interselektie is op zoek naar een enthousiaste verpakkingsoperator…</p>
-                <a href="http://interselektie.local/vacature-single/">Bekijk vacature</a>
+                <a href="https://interselektie.bofesto.nl/vacature-single/">Bekijk vacature</a>
                 <a href="#">Bewaar vacature <i class="fa-regular fa-heart"></i></a>
             </li>
         </ul>
@@ -54,7 +54,7 @@
                 <h3>Werkvoorbereider/ Calculator elektrotechniek</h3>
                 <p><i class="fa-solid fa-location-dot"></i> Amsterdam </p>
                 <p>Ben jij op zoek naar een nieuwe uitdaging in de productie? Interselektie is op zoek naar een enthousiaste verpakkingsoperator…</p>
-                <a href="http://interselektie.local/vacature-single/">Bekijk vacature</a>
+                <a href="https://interselektie.bofesto.nl/vacature-single/">Bekijk vacature</a>
                 <a href="#">Bewaar vacature <i class="fa-regular fa-heart"></i></a>
             </li>
         </ul>
@@ -64,7 +64,7 @@
                 <h3>Werkvoorbereider/ Calculator elektrotechniek</h3>
                 <p><i class="fa-solid fa-location-dot"></i> Amsterdam </p>
                 <p>Ben jij op zoek naar een nieuwe uitdaging in de productie? Interselektie is op zoek naar een enthousiaste verpakkingsoperator…</p>
-                <a href="http://interselektie.local/vacature-single/">Bekijk vacature</a>
+                <a href="https://interselektie.bofesto.nl/vacature-single/">Bekijk vacature</a>
                 <a href="#">Bewaar vacature <i class="fa-regular fa-heart"></i></a>
             </li>
         </ul>
@@ -86,21 +86,21 @@
 
     <ul>
         <li>
-            <img src="http://interselektie.local/wp-content/uploads/2024/06/berichtenselektieIMG.png" alt="">
+            <img src="https://interselektie.bofesto.nl/wp-content/uploads/2024/06/berichtenselektieIMG.png" alt="">
             <h3>Haal alles uit het recruitmentsysteem</h3>
             <h5>deel 2: Bewaak de datakwaliteit</h5>
             <p>Wat zijn de belangrijkste succesfactoren bij het gebruik van een recruitmentsysteem? Hans Scheers, partner bij Experts in Flex, legt dat uit in een serie van vier artikelen. In deel 2: de do’s en don’ts voor je kandidatendatabase.</p>
             <a href=""><p>Lees verder</p></a>
         </li>
         <li>
-            <img src="http://interselektie.local/wp-content/uploads/2024/06/berichtenselektieIMG.png" alt="">
+            <img src="https://interselektie.bofesto.nl/wp-content/uploads/2024/06/berichtenselektieIMG.png" alt="">
             <h3>Haal alles uit het recruitmentsysteem</h3>
             <h5>deel 2: Bewaak de datakwaliteit</h5>
             <p>Wat zijn de belangrijkste succesfactoren bij het gebruik van een recruitmentsysteem? Hans Scheers, partner bij Experts in Flex, legt dat uit in een serie van vier artikelen. In deel 2: de do’s en don’ts voor je kandidatendatabase.</p>
             <a href=""><p>Lees verder</p></a>
         </li>
         <li>
-            <img src="http://interselektie.local/wp-content/uploads/2024/06/berichtenselektieIMG.png" alt="">
+            <img src="https://interselektie.bofesto.nl/wp-content/uploads/2024/06/berichtenselektieIMG.png" alt="">
             <h3>Haal alles uit het recruitmentsysteem</h3>
             <h5>deel 2: Bewaak de datakwaliteit</h5>
             <p>Wat zijn de belangrijkste succesfactoren bij het gebruik van een recruitmentsysteem? Hans Scheers, partner bij Experts in Flex, legt dat uit in een serie van vier artikelen. In deel 2: de do’s en don’ts voor je kandidatendatabase.</p>

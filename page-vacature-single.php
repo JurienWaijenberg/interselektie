@@ -10,7 +10,7 @@
 </section>
 
 <section class="max-width vacatures-intro vacature-single">
-    <section>
+    <section class="vacature-uitgebreide-info">
         <h2>Zelfstandig elektromonteur woningbouw (regio Zaanstad)</h2>
         <h4>Functie omschrijving</h4>      <p>Voor een opdrachtgever zijn wij op zoek naar een zelfstandige elektromonteur voor werkzaamheden woningbouw/burgerwerk.</p><p>Deze opdrachtgever is met meerdere werkmaatschappijen in meerdere disciplines in de techniek, een bedrijf waarin je je breed kan ontwikkelen. Zij streven naar tevreden medewerkers, blije klanten en werken met duidelijke processen. Er is volop plaats voor jouw ontwikkeling.</p><p>Inhoud werkzaamheden:</p><ul><li>Verhelpen van storingen aan verlichting;</li><li>Vervangen armaturen en lichtbronnen;</li><li>Ombouwen naar led-lichtbronnen;</li><li>Onderhouden van noodverlichtingsarmaturen.</li></ul><p>Voor deze opdracht heb je dagelijks contact met de huismeester en bewoners en werk je lekker zelfstandig.&nbsp;</p><p>Wij zoeken/vragen:</p><ul><li>Een sociaal en gemotiveerd persoon je bent namelijk ons visitekaartje;</li><li>Je bent in het bezit van een rijbewijs B;</li><li>Je bent vol ambities;</li><li>Je bent in het bezit van een geldig VCA Basis certificaat.</li></ul><p>We komen graag met monteurs in gesprek, ook als deze vacature het net niet is voor jou. Interselektie heeft uiteenlopende opdrachtgevers met uiteenlopende disciplines in (elektro)techniek.</p> 
               <h4>Functie eisen</h4>        <ul><li>VCA;</li><li>Rijbewijs B;</li><li>Gezonde werklust.</li></ul> 

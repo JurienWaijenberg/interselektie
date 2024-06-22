@@ -37,7 +37,7 @@
 						</section>
 
 						<section class="footer-img">
-							<img src="http://interselektie.local/wp-content/uploads/2024/06/Arnold.png" alt="">
+							<img src="https://interselektie.bofesto.nl/wp-content/uploads/2024/06/Arnold.png" alt="">
 						</section>
 
 						<section>
@@ -70,7 +70,7 @@
 						<li><a href="tel:0756218845">	<p><i class="fa-solid fa-phone-flip"></i> 075 - 621 88 45</p></a></li>
 						<li><a href="mailto:info@interselektie.nl">	<p><i class="fa-solid fa-paper-plane"></i> info@interselektie.nl</p></a></li>
 					</ul>
-					<img src="http://interselektie.local/wp-content/uploads/2024/06/Arnold-footer.png" alt="">
+					<img src="https://interselektie.bofesto.nl/wp-content/uploads/2024/06/Arnold-footer.png" alt="">
 				</section>
 			</section>
 

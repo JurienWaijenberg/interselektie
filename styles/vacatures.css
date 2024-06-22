@@ -6,7 +6,7 @@
 }
 
 .atf-vacatures-bg {
-    background-image: url("http://interselektie.local/wp-content/uploads/2024/06/lachende-vrouw.jpg");
+    background-image: url("https://interselektie.bofesto.nl/wp-content/uploads/2024/06/lachende-vrouw.jpg");
     background-size: cover;
     height: 20vh;
     display: flex;
@@ -207,6 +207,11 @@
 
 .vacature-single > section:nth-child(1) {
     margin-top: 5rem;
+}
+
+.vacature-sticky ul {
+    list-style: none;
+    padding: 0;
 }
 
 
