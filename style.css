@@ -684,7 +684,7 @@ border: solid 0.15rem var(--Donkerblauw);
 
 .footer-img img{
     position: absolute;
-    right: -6rem;
+    right: 1rem;
     bottom: 0;
 }
 
@@ -963,11 +963,11 @@ display:none;
 }
 
 .footer-top-phone img{
-width: 20rem;
+width: 12rem;
 height: auto;
 position: absolute;
-bottom: -6rem;
-right: 0;
+bottom: -8rem;
+right: 2rem;
 z-index: 0;
 }
 

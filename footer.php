@@ -39,7 +39,7 @@
 						</section>
 
 						<section class="footer-img">
-							<img src="http://interselektie.local/wp-content/uploads/2024/06/footer-losse-man.png" alt="">
+							<img src="http://interselektie.local/wp-content/uploads/2024/06/footer-Arnold.png" alt="">
 						</section>
 
 						<section>
@@ -72,7 +72,7 @@
 						<li><a href="">	<p><i class="fa-solid fa-phone-flip"></i> 075 - 621 88 45</p></a></li>
 						<li><a href="">	<p><i class="fa-solid fa-paper-plane"></i> info@interselektie.nl</p></a></li>
 					</ul>
-					<img src="http://interselektie.local/wp-content/uploads/2024/06/footer-losse-man.png" alt="">
+					<img src="http://interselektie.local/wp-content/uploads/2024/06/footer-Arnold.png" alt="">
 				</section>
 			</section>
 
