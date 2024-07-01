@@ -56,7 +56,7 @@
 </section>
 
 <section class="light-grey-bg">
-    <section class="voordelenUitzenden max-width">
+    <section class="voordelen max-width">
             <img src="http://interselektie.local/wp-content/uploads/2024/06/sport-team.jpg" alt="">
         <section>
             <h2>De voordelen van uitzenden</h2>

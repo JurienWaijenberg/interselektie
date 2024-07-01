@@ -261,7 +261,7 @@ padding: 2.5rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1.5rem;
-    width: fit-content;
+    /* width: fit-content; */
 }
 
 .waaromInterselektie ul li{
