@@ -5,7 +5,7 @@
     <!-- <h2>test</h2> -->
 </section>
 
-<section class="introUitzendInhuren max-width spaceSides">
+<section class="introUitzendSoort max-width spaceSides">
     <div>
         <i class="fa-solid fa-circle"></i>
         <h2>Uitzendkrachten inhuren</h2>
@@ -19,20 +19,19 @@
 
 <section class="borderWaaromInterselektie max-width">
     <section class="waaromInterselektie">
-        <h2>Waarom Interselektie als uitzendbureau</h2>
+        <h2>Waarom uitzenden via Interselektie</h2>
         <ul>
             <li>
                 <i class="fa-solid fa-check"></i>
-                <p>Gespecialiseerd in vrijwel alle branches en vakgebieden</p>
+                <p>Snel flexibel personeel uit ons uitgebreide kandidatenbestand</p>
             </li>
             <li>
                 <i class="fa-solid fa-check"></i>
-                <p>Ontloop administratieve lasten; <br>
-                wij nemen uw salarisverwerking voor onze rekening</p>
+                <p>Werving en (voor)selectie wordt voor u gedaan</p>
             </li>
             <li>
                 <i class="fa-solid fa-check"></i>
-                <p>Persoonlijk contact met één van onze ervaren medewerkers</p>
+                <p>Wij bieden ondersteuning bij de planning (indien gewenst)</p>
             </li>
 
             <li>
@@ -41,12 +40,12 @@
             </li>
             <li>
                 <i class="fa-solid fa-check"></i>
-                <p>No cure, no pay. Je betaalt alleen voor de gewerkte uren. <br>
-                Je aanvraag is dus altijd vrijblijvend.</p>
+                <p>U betaalt uitsluitend het tarief voor gewerkte uren van de flexmedewerker</p>
             </li>
             <li>
                 <i class="fa-solid fa-check"></i>
-                <p>Flexibiliteit en een oplossing die volledig op jouw bedrijf is afgestemd</p>
+                <p>Ontloop administratieve lasten; <br>
+                wij nemen uw salarisverwerking voor onze rekening</p>
             </li>
         </ul> 
 </section>

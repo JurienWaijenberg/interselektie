@@ -7,6 +7,7 @@ function bofesto_setup(){
     wp_enqueue_style( 'werkgever', get_template_directory_uri() . '/styles/werkgever.css');
     wp_enqueue_style( 'swiper', get_template_directory_uri() . '/styles/swiper-bundle.min.css');
     wp_enqueue_style( 'uitzendkrachten-inhuren', get_template_directory_uri() . '/styles/uitzendkrachten-inhuren.css');
+    wp_enqueue_style( 'detacheren', get_template_directory_uri() . '/styles/detacheren.css');
 
     wp_enqueue_script( "swiper-bundle", get_template_directory_uri() . '/js/swiper-bundle.min.js', NULL, '3.5.1', true);
     wp_enqueue_script( "javaScript", get_template_directory_uri() . '/js/javaScript.js', NULL, '3.5.1', true);

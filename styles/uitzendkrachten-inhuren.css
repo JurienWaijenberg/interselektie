@@ -18,7 +18,7 @@
 }
 
 /* extra 2x ruimte boven/onder section*/
-.introUitzendInhuren,
+.introUitzendSoort,
 .werkgeverCTA{
     margin-bottom: 5rem;
     margin-top: 5rem;
@@ -57,19 +57,19 @@
 /******************************************************************/
 
 
-.introUitzendInhuren{
+.introUitzendSoort{
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
 }
 
-.introUitzendInhuren div{
+.introUitzendSoort div{
     display: flex;
     align-items: center;
     gap: 1rem;
 }
 
-.introUitzendInhuren p{
+.introUitzendSoort p{
     width: 65%;
 }
 
@@ -218,7 +218,7 @@
 
 /* Intro */ /* Intro */ /* Intro */ /* Intro */ /* Intro */ /* Intro */ /* Intro */ /* Intro */ /* Intro */ 
 /* Intro */ /* Intro */ /* Intro */ /* Intro */ /* Intro */ /* Intro */ /* Intro */ /* Intro */ /* Intro */
-    .introUitzendInhuren p {
+    .introUitzendSoort p {
         width: 100%;
     }
 
