@@ -113,41 +113,41 @@
         <h2>Veelgestelde vragen</h2>
 
         <section>
-
             <button>
-                <h3>Waar moet ik rekening mee houden als ik een flexmedewerker aanneem?</h3> <i class="fa-solid fa-chevron-down"></i> 
+                <h3>Wat is een uitzendkracht?</h3> <i class="fa-solid fa-chevron-down"></i> 
             </button>
             <article>
-                <p>Bij het aannemen van een flexmedewerker moet je rekening houden met verschillende zaken. Zorg dat je voldoet aan de arbeidswetten, zoals de Wet arbeidsmarkt in balans (WAB). Kies het juiste type contract, zoals een oproepcontract, nulurencontract of tijdelijk contract, en betaal volgens de cao om een eerlijk loon te waarborgen. Wees duidelijk over werktijden en beschikbaarheid en houd rekening met de flexibiliteit die nodig is voor wisselende werkuren en de beschikbaarheid van de medewerker.</p>
+                <p>Een uitzendkracht is een werknemer die via ons, Interselektie, tijdelijk bij uw bedrijf werkt. Wij zijn de formele werkgever en regelen zaken zoals loonuitbetaling en arbeidsvoorwaarden. Uitzendkrachten worden ingezet om piekperiodes op te vangen, voor projecten of ter vervanging van vaste medewerkers. Op deze manier bieden wij u de mogelijkheid om snel in te spelen op wisselende omstandigheden in uw bedrijf.</p>
             </article>
 
             <button>
-                <h3>Wat kost het aannemen van een uitzendkracht?</h3> <i class="fa-solid fa-chevron-down"></i> 
+                <h3>Kost een uitzendkracht inhuren meer dan een werknemer in dienst nemen?</h3> <i class="fa-solid fa-chevron-down"></i> 
             </button>
             <article>
-                <p>Het aannemen van een uitzendkracht kost doorgaans tussen de 1,5 en 2,5 keer het bruto uurloon van de werknemer. Deze kosten omvatten het salaris van de uitzendkracht, sociale premies, verzekeringen, administratiekosten en de marge van het uitzendbureau. De exacte kosten kunnen variëren afhankelijk van factoren zoals de sector, het type werk en de duur van de opdracht.</p>
+                <p>Nee, het inhuren van een uitzendkracht via Interselektie kost over het algemeen niet meer dan het in dienst nemen van een werknemer. Wij hanteren tarieven die alle kosten, zoals salaris, belastingen, verzekeringen en administratieve lasten, dekken. Dit biedt flexibiliteit en kan op lange termijn kostenbesparend zijn voor uw bedrijf, omdat u minder administratieve rompslomp en risico's hebt.</p>
             </article>
 
             <button>
-                <h3>Hoe zet ik een vacature uit bij Interselektie?</h3> <i class="fa-solid fa-chevron-down"></i> 
+                <h3>Is personeel inhuren via een uitzendbureau voordeliger dan zelf werven?</h3> <i class="fa-solid fa-chevron-down"></i> 
             </button>
             <article>
-                <p>Maak je een account aan of log je in op je bestaande account. Daarna vul je de benodigde informatie over de vacature in, zoals functiebeschrijving, vereisten en contactgegevens, en dien je de vacature in voor goedkeuring en publicatie</p>
+                <p>Ja, personeel inhuren via ons, kan voordeliger zijn dan zelf werven. Wij nemen de verantwoordelijkheid voor werving, selectie, administratie en personeelsbeheer op ons. Dit bespaart u tijd en kosten die anders gemoeid zouden zijn met advertenties, selectieprocedures en administratieve lasten.</p>
             </article>
 
             <button>
-                <h3>Als ik een vacature aanmeld zit ik dan ergens aan vast?</h3> <i class="fa-solid fa-chevron-down"></i> 
+                <h3>Zijn uitzendkrachten betrouwbaar?</h3> <i class="fa-solid fa-chevron-down"></i> 
             </button>
             <article>
-                <p>Bij het aanmelden van een vacature bij een uitzendbureau zoals Interselektie zit je doorgaans niet direct ergens aan vast. Pas wanneer een geschikte kandidaat wordt gevonden en je besluit deze in dienst te nemen via het uitzendbureau, ga je een overeenkomst aan en ben je verantwoordelijk voor de bijbehorende kosten. Het is verstandig om de specifieke voorwaarden en eventuele verplichtingen van het betreffende uitzendbureau te controleren voordat je een vacature plaatst</p>
+                <p>Ja, uitzendkrachten zijn over het algemeen betrouwbaar. Wij screenen kandidaten grondig voordat we ze plaatsen bij bedrijven. Dit omvat vaak achtergrondcontroles, referentiechecks en beoordelingen van vaardigheden om ervoor te zorgen dat alleen gekwalificeerde en betrouwbare kandidaten worden voorgesteld.</p>
             </article>
 
             <button>
-                <h3>Kan ik na het aanmelden mijn vacature nog aanpassen?</h3> <i class="fa-solid fa-chevron-down"></i> 
+                <h3>Hoe lang duurt het voordat ik een kandidaat heb aangenomen?</h3> <i class="fa-solid fa-chevron-down"></i> 
             </button>
             <article>
-                <p>Ja, je kunt na het aanmelden je vacature nog aanpassen. Log in op je account, zoek de betreffende vacature, en bewerk de gewenste informatie.</p>
+                <p>Het duurt doorgaans niet lang voordat u een kandidaat kunt aannemen via Interselektie. De exacte tijd kan variëren afhankelijk van uw specifieke behoeften en de beschikbaarheid van geschikte kandidaten. Over het algemeen streven we ernaar om snel te reageren op uw aanvraag en kandidaten voor te stellen die goed passen bij uw vacature.</p>
             </article>
+
 
 
         </section>
