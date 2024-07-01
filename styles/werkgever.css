@@ -9,6 +9,10 @@
     color: var(--Rood);
 }
 
+.grey-bg{
+    background-color: var(--Grijs);
+}
+
 /******************************************************************/
 /* margin/padding boven/onder section /* /* margin/padding boven/onder section /* 
 /******************************************************************/
@@ -32,7 +36,8 @@
 /* extra ruimte boven/onder section (met bg)*/
 .vakgebieden,
 .berichtenselektie,
-.usp{
+.usp,
+.faq{
     padding-bottom: 5rem;
     padding-top: 5rem;
 }
@@ -296,7 +301,7 @@ padding: 2.5rem;
     display: flex;
     gap: 2rem;
     align-items: center;
-    padding: 5rem 0;
+    padding: 5rem 2.5rem;
 
     & > section {
         flex: 1;
@@ -482,14 +487,18 @@ padding: 2.5rem;
 /******************************************************************/
 /* FAQ /* /* FAQ /* /* FAQ /* /* FAQ /* /* FAQ /* /* FAQ /* /* FAQ /* 
 /******************************************************************/
+.FAQwerkgever h2{
+    padding: 6rem 2.5rem 0 2.5rem;  
+}
 
-.FAQwerkgever {
+.FAQwerkgever section {
     display: flex;
     flex-direction: column;
-  }
+    padding: 4rem 2.5rem;
+}
   
   
-  .FAQwerkgever button{
+  .FAQwerkgever section button{
     padding: 0;
     gap: 1rem;
     display: flex;
@@ -504,29 +513,29 @@ padding: 2.5rem;
   }
 
 
-  .FAQwerkgever button i {
+  .FAQwerkgever section button i {
     transition: transform 0.3s ease; /* voeg een overgang toe voor soepele animatie */
     font-size: 1.5rem;
 }
 
-.FAQwerkgever button i.rotate-180 {
+.FAQwerkgever section button i.rotate-180 {
     transform: rotate(180deg); /* standaard 180 graden rotatie voor de pijl */
 }
   
   
   /* balken dicht */
-  .FAQwerkgever article {
+  .FAQwerkgever section article {
     border-bottom: solid 0.15rem var(--Wit);
     margin: 2rem 0;
   }
   
 
-  .FAQwerkgever article p{
+  .FAQwerkgever section article p{
     margin-bottom: 1rem;
     width: 95%;
   }
   
-  .FAQwerkgever article {
+  .FAQwerkgever section article {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease;

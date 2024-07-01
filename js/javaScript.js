@@ -30,8 +30,8 @@ var swiper = new Swiper(".mySwiper", {
 /******************************************************************/
 
 document.addEventListener("DOMContentLoaded", function () {
-  const buttons = document.querySelectorAll(".FAQwerkgever button");
-  const articles = document.querySelectorAll(".FAQwerkgever article");
+  const buttons = document.querySelectorAll(".FAQwerkgever section button");
+  const articles = document.querySelectorAll(".FAQwerkgever section article");
 
   buttons.forEach((button, index) => {
     button.addEventListener("click", function () {
