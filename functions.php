@@ -5,7 +5,10 @@
 function bofesto_setup(){
     wp_enqueue_style('style', get_stylesheet_uri(), NULL, microtime(), 'all');
     wp_enqueue_style( 'werkgever', get_template_directory_uri() . '/styles/werkgever.css');
-    // wp_enqueue_script("main", get_theme_file_uri('/js/main.js'), NULL, microtime(), true);
+    wp_enqueue_style( 'swiper', get_template_directory_uri() . '/styles/swiper-bundle.min.css');
+
+    wp_enqueue_script( "swiper-bundle", get_template_directory_uri() . '/js/swiper-bundle.min.js', NULL, '3.5.1', true);
+    wp_enqueue_script( "javaScript", get_template_directory_uri() . '/js/javaScript.js', NULL, '3.5.1', true);
 }
 
 add_action('wp_enqueue_scripts', 'bofesto_setup');

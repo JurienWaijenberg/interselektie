@@ -2,7 +2,7 @@
 
 <section class="atf-bg-werkgever">
 
-	<section class="atf-werkgever max-width">
+	<section class="atf-werkgever max-width spaceSides">
 		<h1>Ik zoek <br> personeel</h1>
 		<section>
 			<h2><span>Interselektie</span> <br> Altijd de juiste connectie</h2>
@@ -27,7 +27,7 @@
 		</section>
 </section>        
 
-<section class="introWerkgever max-width">
+<section class="introWerkgever max-width spaceSides">
 	<!-- <h2>Onze diensten <i class="fa-solid fa-circle"></i> </h2> -->
     <div>
         <i class="fa-solid fa-circle"></i>
@@ -38,7 +38,7 @@
     </p>
 </section>
 
-<section class="werkgeverCards max-width">
+<section class="werkgeverCards max-width spaceSides">
     <ul>
 		<li>
             <img src="http://interselektie.local/wp-content/uploads/2024/06/lachende-vrouw.jpg" alt="">
@@ -79,29 +79,35 @@
                 <div>
                     <img src="http://interselektie.local/wp-content/uploads/2024/06/kandidaten.svg" alt="">
                 </div>
-                <h3>Snel matchende Service</h3>
-                <p>Direct, Persoonlijk, Efficiënt</p>
+                <article>
+                    <h3>Snel matchende Service</h3>
+                    <p>Direct, Persoonlijk, Efficiënt</p>
+                </article>
             </li>
             <li>
                 <div>
                     <img src="http://interselektie.local/wp-content/uploads/2024/06/kandidaten.svg" alt="">
                 </div>
-                <h3>Circa 200.000</h3>
-                <p>Potentiële kandidaten voor u</p>
+                <article>
+                    <h3>Circa 200.000</h3>
+                    <p>Potentiële kandidaten voor u</p>
+                </article>
             </li>
             <li>
                 <div>
                     <img src="http://interselektie.local/wp-content/uploads/2024/06/kandidaten.svg" alt="">
                 </div>
-                <h3>Expertise in 14 Sectoren</h3>
-                <p>van Productie tot Zorg</p>
+                <article>
+                    <h3>Expertise in 14 Sectoren</h3>
+                    <p>van Productie tot Zorg</p>
+                </article>
             </li>
         </ul>
     </section>
 </section>
 
 <section class="borderWaaromInterselektie max-width">
-    <section class="waaromInterselektie">
+    <section class="waaromInterselektie ">
         <h2>Waarom Interselektie als uitzendbureau</h2>
         <ul>
             <li>
@@ -135,12 +141,96 @@
 </section>
 </section>
 
-<section class="btnWaaromInterselektie max-width">  
+<section class="btnWaaromInterselektie max-width spaceSides">  
     <a href="x" class="redBtn">Vacature aanmelden</a> 
 </section>
 
 
-<section class="samenwerken max-width">
+<section class="light-grey-bg reviews">
+
+			<section class="swiper mySwiper max-width swiper-css-mode">
+				<h2>Dit zeggen onze klanten</h2>
+				<ul class="swiper-wrapper">
+				  <li class="swiper-slide">
+					<div>
+						<i class="fa-solid fa-quote-left"></i>
+					  <p>
+						Als werkgever bij Innovatech willen we onze waardering uiten voor geweldige diensten van interselektie. Hun ondersteuning heeft ons geholpen om snel gekwalificeerde kandidaten aan te trekken die naadloos passen bij onze bedrijfscultuur. <br>
+						<span>- Luuk Groeneveld <br>
+						Bedrijfsmanager De Slimme Schakel
+							</span>
+					  </p>
+					</div>
+				  </li>
+			
+				  <li class="swiper-slide">
+					<div>
+						<i class="fa-solid fa-quote-left"></i>
+						<p>
+							Hun vriendelijkheid en zorg hebben onze werving reis gemakkelijk gemaakt. Met zorgvuldig geselecteerde kandidaten en voortdurende vriendelijke hulp hebben ze ons geholpen en hecht en succesvol team op te bouwen.<br>
+							<span>- Marit de Jong <br>
+							Projectleider Innovatech Solutions</span>
+						  </p>
+					</div>
+				  </li>
+			
+				  <li class="swiper-slide">
+					<div>
+						<i class="fa-solid fa-quote-left"></i>
+						<p>
+							Als werkgever bij Innovatech willen we onze waardering uiten voor geweldige diensten van interselektie. Hun ondersteuning heeft ons geholpen om snel gekwalificeerde kandidaten aan te trekken die naadloos passen bij onze bedrijfscultuur.<br>
+							<span>- Marit de Jong <br>
+							Projectleider Innovatech Solutions</span>
+						  </p>
+					</div>
+				  </li>
+			
+				  <li class="swiper-slide">
+					<div>
+						<i class="fa-solid fa-quote-left"></i>
+						<p>
+							Als werkgever bij Innovatech willen we onze waardering uiten voor geweldige diensten van interselektie. Hun ondersteuning heeft ons geholpen om snel gekwalificeerde kandidaten aan te trekken die naadloos passen bij onze bedrijfscultuur.<br>
+							<span>- Marit de Jong <br>
+							Projectleider Innovatech Solutions</span>
+						  </p>
+					</div>
+				  </li>
+
+				  <li class="swiper-slide">
+					<div>
+						<i class="fa-solid fa-quote-left"></i>
+						<p>
+							Als werkgever bij Innovatech willen we onze waardering uiten voor geweldige diensten van interselektie. Hun ondersteuning heeft ons geholpen om snel gekwalificeerde kandidaten aan te trekken die naadloos passen bij onze bedrijfscultuur.<br>
+							<span>- Marit de Jong <br>
+							Projectleider Innovatech Solutions</span>
+						  </p>
+					</div>
+				  </li>
+
+				  <li class="swiper-slide">
+					<div>
+						<i class="fa-solid fa-quote-left"></i>
+						<p>
+							Als werkgever bij Innovatech willen we onze waardering uiten voor geweldige diensten van interselektie. Hun ondersteuning heeft ons geholpen om snel gekwalificeerde kandidaten aan te trekken die naadloos passen bij onze bedrijfscultuur.<br>
+							<span>- Marit de Jong <br>
+							Projectleider Innovatech Solutions</span>
+						  </p>
+					</div>
+				  </li>
+				</ul>
+				<div class="swiper-button-next"><i class="fa-solid fa-chevron-right"></i></div>
+				<div class="swiper-button-prev"><i class="fa-solid fa-chevron-left"></i></div>
+				<div class="swiper-pagination"></div>
+			</section>
+		</section>
+			
+
+  <!-- Swiper JS -->
+  <script src="swiper-bundle.min.js"></script>
+
+
+
+<section class="samenwerken max-width spaceSides">
     <section>
         <h2>Interesse in samenwerken?</h2>
         <p>Wij staan klaar om met u mee te denken en een op maat gemaakte dienstverlening te bieden die perfect aansluit bij uw behoeften en wensen.</p>
@@ -184,7 +274,7 @@
 				<a href="x">
 					<img id="favicon"
 					src="images/favicon.svg" alt="">
-					<h4>Zorg</h4>
+					<h4>x</h4>
 					<i class="fa-solid fa-chevron-right"></i>
 			    </a>
 			</li>
@@ -209,6 +299,53 @@
 		<a href="">Bekijk alle vakgebieden</a>
 		</section>
 
+</section>
+
+
+
+
+
+
+<section class="light-grey-bg">
+
+<section class="FAQwerkgever max-width spaceSides">
+    <button>
+        <h3>Waar moet ik rekening mee houden als ik een flexmedewerker aanneem?</h3> <i class="fa-solid fa-chevron-down"></i> 
+      </button>
+      <article>
+        <p>Bij het aannemen van een flexmedewerker moet je rekening houden met verschillende zaken. Zorg dat je voldoet aan de arbeidswetten, zoals de Wet arbeidsmarkt in balans (WAB). Kies het juiste type contract, zoals een oproepcontract, nulurencontract of tijdelijk contract, en betaal volgens de cao om een eerlijk loon te waarborgen. Wees duidelijk over werktijden en beschikbaarheid en houd rekening met de flexibiliteit die nodig is voor wisselende werkuren en de beschikbaarheid van de medewerker.</p>
+      </article>
+
+      <button>
+        <h3>Wat kost het aannemen van een uitzendkracht?</h3> <i class="fa-solid fa-chevron-down"></i> 
+      </button>
+      <article>
+        <p>Het aannemen van een uitzendkracht kost doorgaans tussen de 1,5 en 2,5 keer het bruto uurloon van de werknemer. Deze kosten omvatten het salaris van de uitzendkracht, sociale premies, verzekeringen, administratiekosten en de marge van het uitzendbureau. De exacte kosten kunnen variëren afhankelijk van factoren zoals de sector, het type werk en de duur van de opdracht.</p>
+      </article>
+
+      <button>
+        <h3>Hoe zet ik een vacature uit bij Interselektie?</h3> <i class="fa-solid fa-chevron-down"></i> 
+      </button>
+      <article>
+        <p>Maak je een account aan of log je in op je bestaande account. Daarna vul je de benodigde informatie over de vacature in, zoals functiebeschrijving, vereisten en contactgegevens, en dien je de vacature in voor goedkeuring en publicatie</p>
+      </article>
+
+      <button>
+        <h3>Als ik een vacature aanmeld zit ik dan ergens aan vast?</h3> <i class="fa-solid fa-chevron-down"></i> 
+      </button>
+      <article>
+        <p>Bij het aanmelden van een vacature bij een uitzendbureau zoals Interselektie zit je doorgaans niet direct ergens aan vast. Pas wanneer een geschikte kandidaat wordt gevonden en je besluit deze in dienst te nemen via het uitzendbureau, ga je een overeenkomst aan en ben je verantwoordelijk voor de bijbehorende kosten. Het is verstandig om de specifieke voorwaarden en eventuele verplichtingen van het betreffende uitzendbureau te controleren voordat je een vacature plaatst</p>
+      </article>
+
+      <button>
+        <h3>Kan ik na het aanmelden mijn vacature nog aanpassen?</h3> <i class="fa-solid fa-chevron-down"></i> 
+      </button>
+      <article>
+        <p>Ja, je kunt na het aanmelden je vacature nog aanpassen. Log in op je account, zoek de betreffende vacature, en bewerk de gewenste informatie.</p>
+      </article>
+
+
+</section>
 </section>
 
 
