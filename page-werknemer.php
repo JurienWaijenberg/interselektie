@@ -222,4 +222,11 @@
 
 </section>
 
+<section class="werving max-width">
+    <h2>Werving en selectie met Interselektie, hoe werkt ’t?</h2>
+    <section>
+        
+    </section>
+</section>
+
 <?php get_footer(); ?>
