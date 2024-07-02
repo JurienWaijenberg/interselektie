@@ -5,9 +5,22 @@
 function bofesto_setup(){
     wp_enqueue_style('style', get_stylesheet_uri(), NULL, microtime(), 'all');
     wp_enqueue_style( 'werkgever', get_template_directory_uri() . '/styles/werkgever.css');
+
+    wp_enqueue_style( 'swiper', get_template_directory_uri() . '/styles/swiper-bundle.min.css');
+    wp_enqueue_style( 'uitzendkrachten-inhuren', get_template_directory_uri() . '/styles/uitzendkrachten-inhuren.css');
+    wp_enqueue_style( 'detacheren', get_template_directory_uri() . '/styles/detacheren.css');
+    wp_enqueue_style( 'werving-selectie', get_template_directory_uri() . '/styles/werving-selectie.css');
+    wp_enqueue_style( 'vacature-aanmelden', get_template_directory_uri() . '/styles/vacature-aanmelden.css');
+    wp_enqueue_style( 'over-interselektie', get_template_directory_uri() . '/styles/over-interselektie.css');
+    wp_enqueue_style( 'onze-documenten', get_template_directory_uri() . '/styles/onze-documenten.css');
+    wp_enqueue_style( 'privacy-policy', get_template_directory_uri() . '/styles/privacy-policy.css');
     wp_enqueue_style( 'vacatures', get_template_directory_uri() . '/styles/vacatures.css');
     wp_enqueue_style( 'werknemer', get_template_directory_uri() . '/styles/werknemer.css');
+
+    wp_enqueue_script( "swiper-bundle", get_template_directory_uri() . '/js/swiper-bundle.min.js', NULL, '3.5.1', true);
+    wp_enqueue_script( "javaScript", get_template_directory_uri() . '/js/javaScript.js', NULL, '3.5.1', true);
     // wp_enqueue_script("main", get_theme_file_uri('/js/main.js'), NULL, microtime(), true);
+
 }
 
 add_action('wp_enqueue_scripts', 'bofesto_setup');

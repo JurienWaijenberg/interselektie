@@ -1,0 +1,32 @@
+.introUitzendSoort.introDocumenten{
+    margin-bottom: 2rem;
+}
+
+.documenten ul{
+    padding: 0;
+    margin-bottom: 8rem;
+}
+
+.documenten ul li{
+    list-style-type: none;
+}
+
+.documenten ul li a{
+    padding: 0;
+    gap: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+
+    border-bottom: var(--border) var(--Grijs);
+    align-items: center;
+    text-align: left;
+    cursor: pointer;
+    padding: 2.5rem 0;
+}
+
+.documenten ul li a i{
+    font-size: 1.5rem;
+    padding: 0 2rem 0 1.5rem;
+}

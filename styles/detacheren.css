@@ -1,0 +1,33 @@
+.verschil.detUit{
+    flex-direction: row-reverse
+}
+
+.verschil.detUit h2{
+    width: 100%;
+}
+
+
+@media only screen and (min-width: 168px) and (max-width: 768px) {
+
+    
+    /* verschil */ /* verschil */ /* verschil */ /* verschil */ /* verschil */ /* verschil */ /* verschil */ /* verschil */ 
+    /* verschil */ /* verschil */ /* verschil */ /* verschil */ /* verschil */ /* verschil */ /* verschil */ /* verschil */ 
+    
+    .verschil.detUit{
+        flex-direction: column;
+        gap: 2rem;
+        padding: 5rem 2.5rem
+    }
+    
+    .verschil.detUit img{
+        width: 100%;
+        height: 15rem;
+        object-fit: cover;
+    }
+    
+    .verschil.detUit section{
+        display: flex;
+        flex-direction: column;
+        gap: 2.5rem;
+    }
+}

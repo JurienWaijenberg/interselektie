@@ -27,6 +27,7 @@
 
 
   --roundborder: 0 1.5rem 1.5rem 1.5rem;
+  --border: solid 0.15rem;
 }
 
 .red-bg{
@@ -82,6 +83,7 @@ h3{
 h4{
     font-size: 1.45rem;
     font-weight: lighter;
+    line-height: 1.6rem;
 }
 
 h5,
@@ -435,6 +437,9 @@ border: solid 0.15rem var(--Donkerblauw);
     flex-direction: column;
     gap: 2rem;
     align-items: center;
+
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
 }
 
 .vakgebieden ul{
@@ -720,7 +725,7 @@ footer > section:nth-child(2){
 
 .footer-img img{
     position: absolute;
-    right: -6rem;
+    right: 1rem;
     bottom: 0;
     width: 530px;
 }
@@ -1220,12 +1225,12 @@ display:none;
 }
 
 .footer-top-phone img{
-    width: 8rem;
-    height: auto;
-    position: absolute;
-    bottom: -5rem;
-    right: 0;
-    z-index: 0;
+  width: 12rem;
+  height: auto;
+  position: absolute;
+  bottom: -8rem;
+  right: 2rem;
+  z-index: 0;
 }
 
 .footer-top-phone ul{

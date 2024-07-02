@@ -1,0 +1,283 @@
+
+
+
+/* extra ruimte boven/onder section (met max-width)*/
+.top-vacatures{
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+/* extra ruimte boven/onder section (met bg)*/
+.vakgebieden,
+.berichtenselektie,
+.usp,
+.voordelen,
+.verschil{
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+
+/* extra 2x ruimte boven/onder section*/
+.introUitzendSoort,
+.werkgeverCTA{
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+}
+
+.blueBtn{
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 1.6rem;
+    color: var(--Wit);
+    background-color: var(--Donkerblauw);
+    padding: 0.6rem 2.5rem;
+    border-radius: 10rem;
+    text-decoration: none;
+    width: fit-content;
+}
+
+.grey-bg{
+    background-color: var(--Grijs);
+}
+
+
+
+/******************************************************************/
+/* Banner /* /* Banner /* /* Banner /* /* Banner /* /* Banner /*
+/******************************************************************/
+
+.banner img {
+    width: 100vw;
+    height: 20vh;
+    object-fit: cover;
+}
+
+/******************************************************************/
+/* Intro /* /* Intro /* /* Intro /* /* Intro /* /* Intro /* /* Intro /* 
+/******************************************************************/
+
+
+.introUitzendSoort{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.introUitzendSoort div{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.introUitzendSoort p{
+    width: 65%;
+}
+
+/******************************************************************/
+/* voordelenUitzenden /* /* voordelenUitzenden /* /* voordelenUitzenden /* 
+/******************************************************************/
+
+.voordelen{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    align-items: center;
+    padding: 6rem 2.5rem;
+}
+
+.voordelen img{
+    border-radius: var(--roundborder);
+
+    width: 50%;
+    height: 25rem;
+    object-fit: cover;
+
+}
+
+.voordelen section{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.voordelen ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0; /* Verwijder standaard padding */
+    margin: 0;
+    
+}
+
+.voordelen ul li{
+    display: flex;
+    gap: 1rem;
+}
+
+.voordelen span{
+    font-weight: 600;
+}
+
+/******************************************************************/
+/* Verschil /* /* Verschil /* /* Verschil /* /* Verschil /* /* Verschil /* 
+/******************************************************************/
+
+
+.verschil{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    align-items: center;
+    padding: 6rem 2.5rem;
+}
+
+.verschil img{
+    border-radius: var(--roundborder);
+    width: 50%;
+    height: 25rem;
+    object-fit: cover;
+}
+
+.verschil h2{
+    width: 70%;
+}
+
+.verschil section{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+/******************************************************************/
+/* werkgeverCTA /* /* werkgeverCTA /* /* werkgeverCTA /* /* werkgeverCTA /* 
+/******************************************************************/
+
+
+.werkgeverCTA{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    align-items: center;
+    padding: 4rem 2.5rem;
+}
+
+.werkgeverCTA img{
+    border-radius: var(--roundborder);
+    width: 50%;
+    height: 25rem;
+    object-fit: cover;
+}
+
+.werkgeverCTA section{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.werkgeverCTA section article{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+
+/* Ipad padding sides */
+@media only screen and (max-width: 1350px) {
+
+    .spaceSides{
+        padding: 0 2.5rem;
+    }
+
+}
+
+
+/* Ipad */
+@media only screen and (max-width: 1050px) {
+    .verschil h2{
+        width: 100%;
+    }
+
+    .voordelen img{
+        width: 40%;
+        height: 30rem;
+    }
+
+    .verschil img{
+        height: 35rem;
+    }
+
+    .werkgeverCTA img{
+        height: 35rem;
+    }
+    
+}
+
+/* Telefoon */
+@media only screen and (min-width: 168px) and (max-width: 768px) {
+
+/* Intro */ /* Intro */ /* Intro */ /* Intro */ /* Intro */ /* Intro */ /* Intro */ /* Intro */ /* Intro */ 
+/* Intro */ /* Intro */ /* Intro */ /* Intro */ /* Intro */ /* Intro */ /* Intro */ /* Intro */ /* Intro */
+    .introUitzendSoort p {
+        width: 100%;
+    }
+
+/* voordelenUitzenden */ /* voordelenUitzenden */ /* voordelenUitzenden */ /* voordelenUitzenden */ /* voordelenUitzenden */ 
+/* voordelenUitzenden */ /* voordelenUitzenden */ /* voordelenUitzenden */ /* voordelenUitzenden */ /* voordelenUitzenden */ 
+
+.voordelen{
+    flex-direction: column;
+    gap: 2rem;
+    padding: 5rem 2.5rem;
+}
+
+.voordelen img{
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+}
+
+/* verschil */ /* verschil */ /* verschil */ /* verschil */ /* verschil */ /* verschil */ /* verschil */ /* verschil */ 
+/* verschil */ /* verschil */ /* verschil */ /* verschil */ /* verschil */ /* verschil */ /* verschil */ /* verschil */ 
+
+.verschil{
+    flex-direction: column;
+    gap: 2rem;
+    padding: 5rem 2.5rem
+}
+
+.verschil img{
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+}
+
+.verschil section{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+/* werkgeverCTA */ /* werkgeverCTA */ /* werkgeverCTA */ /* werkgeverCTA */ /* werkgeverCTA */ /* werkgeverCTA */
+/* werkgeverCTA */ /* werkgeverCTA */ /* werkgeverCTA */ /* werkgeverCTA */ /* werkgeverCTA */ /* werkgeverCTA */    
+
+
+
+.werkgeverCTA{
+    flex-direction: column;
+    gap: 2rem;
+    padding: 5rem 2.5rem;
+}
+
+.werkgeverCTA img{
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+}
+
+
+
+
+
+}
+
