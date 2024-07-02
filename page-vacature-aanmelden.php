@@ -7,14 +7,12 @@
 <section class="introUitzendSoort max-width spaceSides">
     <div>
         <i class="fa-solid fa-circle"></i>
-        <h2>Werving en Selectie</h2>
+        <h2>Vacature aanmelden</h2>
     </div>
     <p>
-    Op zoek naar de ideale kandidaat om jouw team te versterken? 
-    Ontdek de waarde van werving en selectie! Bij deze dienst nemen wij de verantwoordelijkheid voor het vinden van geschikte professionals die perfect aansluiten bij jouw bedrijfscultuur en vacature-eisen. Van het screenen van cv’s tot het voeren van sollicitatiegesprekken, wij nemen het volledige wervingsproces uit handen. Met onze expertise zorgen we ervoor dat je de juiste persoon voor de job vindt, zonder gedoe of tijdsverlies
+        Op zoek naar nieuwe teamleden? Bij ons ben je aan het juiste adres! Wij helpen je graag bij het vinden van geschikte kandidaten voor jouw vacature. Door je vacature bij ons te plaatsen, krijg je direct toegang tot een selectie van potentiële collega’s in jouw eigen account. De touwtjes blijven in jouw handen: jij bepaalt zelf welke kandidaten je wilt uitnodigen voor een gesprek en wie je uiteindelijk aanneemt. Geïnteresseerd? Vul het onderstaande formulier in om vrijblijvend je vacature aan te melden. Binnen 24 uur nemen we contact met je op om de plaatsing van de vacature te bespreken.
     </p>
 
-    <a href="x" class="redBtn">Neem contact op</a> 
 </section>
 
 <section class="grey-bg">

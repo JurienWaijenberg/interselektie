@@ -105,8 +105,6 @@
     </section>
 </section>
 
-
-
 <section class="grey-bg">
     <section class="FAQwerkgever max-width">
         <h2>Veelgestelde vragen</h2>

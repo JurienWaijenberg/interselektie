@@ -1,0 +1,173 @@
+/******************************************************************/
+/* team /*  /* team /* /* team /* /* team /* /* team /* /* team /* 
+/******************************************************************/
+.team{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding: 0 2.5rem;
+}
+
+.team ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 2rem; 
+    justify-content: flex-start; 
+}
+
+.team ul li {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 calc(33.33% - 2rem); 
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+}
+
+.team ul li img {
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: var(--roundborder);
+    margin-bottom: 1.5rem;
+}
+
+.team ul li h3
+{
+    margin-bottom: 1.5rem;
+}
+
+.team ul li h4
+{
+    color: var(--Donkergrijs);
+}
+
+.team ul li h4 span{
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 0.5rem; 
+}
+
+.team ul li h4{
+    margin-bottom: 0.8rem; 
+}
+
+.team ul li div{
+    padding-left: 1rem;
+}
+
+.team ul li div:nth-of-type(2){
+    display: flex;
+    gap: 1rem;
+}
+
+.team ul li div:nth-of-type(2) a{
+    width: 2rem;
+    height: 2rem;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: var(--border) var(--Donkerblauw);
+}
+
+.team ul li div:nth-of-type(2) a i{
+    color: var(--Donkerblauw);
+}
+
+@media (max-width: 900px) {
+    .team ul li {
+        flex: 1 0 calc(50% - 2rem); 
+        max-width: calc(50% - 1rem);
+    }
+}
+
+
+@media (max-width: 650px) {
+    .team ul {
+        justify-content: center; 
+    }
+    .team ul li {
+        flex: 1 0 100%; 
+        max-width: 100%;
+    }
+}
+
+/******************************************************************/
+/* Buiten werktijd /* /* Buiten werktijd /* /* Buiten werktijd /* 
+/******************************************************************/
+
+.voordelen.buitenWerktijd{
+    flex-direction: row-reverse;
+}
+
+.voordelen.buitenWerktijd ul li{
+    align-items: center;
+}
+
+.voordelen.buitenWerktijd div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 2rem; 
+}
+
+.voordelen.buitenWerktijd > div img{
+    height: 20rem;
+}
+
+
+.voordelen.buitenWerktijd > div img:first-child {
+    grid-column: span 2;
+    width: 100%;
+    border-radius: 0 1.5rem 0 0;
+}
+
+.voordelen.buitenWerktijd > div img {
+    width: 100%;
+    object-fit: cover; 
+}
+
+.voordelen.buitenWerktijd > div img:nth-of-type(2){
+    border-radius: 0 0 0 1.5rem;
+}
+
+.voordelen.buitenWerktijd > div img:nth-of-type(3){
+    border-radius: 0 0 1.5rem 0;
+}
+
+/******************************************************************/
+/* Keurmerken /* /* Keurmerken /* /* Keurmerken /* /* Keurmerken /* 
+/******************************************************************/
+
+
+.keurmerken{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    align-items: center;
+    padding: 6rem 2.5rem;
+}
+
+.keurmerken section{
+    width: 50%;
+}
+
+.keurmerken section:nth-of-type(2){
+    display: flex;
+    flex-direction: row;
+    flex: 1 0 calc(33.33% - 2rem); 
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+}
+
+.keurmerken section:nth-of-type(2) img{
+    width: 100%;
+    object-fit: cover; 
+}

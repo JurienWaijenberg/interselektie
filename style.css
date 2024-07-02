@@ -26,6 +26,7 @@
 
 
   --roundborder: 0 1.5rem 1.5rem 1.5rem;
+  --border: solid 0.15rem;
 }
 
 .red-bg{
@@ -80,6 +81,7 @@ h3{
 h4{
     font-size: 1.45rem;
     font-weight: lighter;
+    line-height: 1.6rem;
 }
 
 h5,
