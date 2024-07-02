@@ -12,6 +12,7 @@ function bofesto_setup(){
     wp_enqueue_style( 'vacature-aanmelden', get_template_directory_uri() . '/styles/vacature-aanmelden.css');
     wp_enqueue_style( 'over-interselektie', get_template_directory_uri() . '/styles/over-interselektie.css');
     wp_enqueue_style( 'onze-documenten', get_template_directory_uri() . '/styles/onze-documenten.css');
+    wp_enqueue_style( 'privacy-policy', get_template_directory_uri() . '/styles/privacy-policy.css');
 
     wp_enqueue_script( "swiper-bundle", get_template_directory_uri() . '/js/swiper-bundle.min.js', NULL, '3.5.1', true);
     wp_enqueue_script( "javaScript", get_template_directory_uri() . '/js/javaScript.js', NULL, '3.5.1', true);
