@@ -5,6 +5,8 @@
 function bofesto_setup(){
     wp_enqueue_style('style', get_stylesheet_uri(), NULL, microtime(), 'all');
     wp_enqueue_style( 'werkgever', get_template_directory_uri() . '/styles/werkgever.css');
+    wp_enqueue_style( 'vacatures', get_template_directory_uri() . '/styles/vacatures.css');
+    wp_enqueue_style( 'werknemer', get_template_directory_uri() . '/styles/werknemer.css');
     // wp_enqueue_script("main", get_theme_file_uri('/js/main.js'), NULL, microtime(), true);
 }
 

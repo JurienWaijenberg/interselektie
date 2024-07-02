@@ -1,0 +1,189 @@
+.ideale-baan{
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+.ideale-baan section:last-of-type ul li a,
+.vakgebieden > a {
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 1.6rem;
+
+    color: var(--Wit);
+    background-color: var(--Donkerblauw);
+    padding: 0.6rem 1.5rem;
+    border-radius: 10rem;
+    text-decoration: none; 
+}
+
+
+/******************************************************************/
+/* Top vacatures/* /* Top vacatures/* /* Top vacatures/* /* Top vacatures/* 
+/******************************************************************/
+
+.ideale-baan {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* Titel + iconen */
+.ideale-baan a{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    text-decoration: none;
+}
+
+/* Pijl icoon groter */
+.fa-chevron-right{
+    font-size: 1.8rem;
+}
+
+/* vacatures 3x */
+.ideale-baan section:last-of-type{
+    display: flex;
+    gap: 3rem;
+}
+
+.ideale-baan section:last-of-type ul{
+    padding: 0;
+}
+
+.ideale-baan section:last-of-type ul li{
+    padding: 2rem;
+    border: red solid 2px;
+    border-radius: var(--roundborder);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.ideale-baan section:last-of-type ul:nth-child(3) li {
+    background-color: red;
+
+    & h3, p, a {
+        color: var(--Wit);
+    }
+}
+
+.ideale-baan section:last-of-type ul li p:nth-of-type(2){
+    margin: 1rem 0;
+}
+
+/* buttons */
+.ideale-baan section:last-of-type ul li a{
+text-align: left;
+max-width: 48%;
+display: flex;
+flex-direction: row;
+gap: 1rem;
+align-items: center;
+}
+
+.ideale-baan section:last-of-type ul li a:last-of-type{
+background-color: var(--Wit);
+color: var(--Donkerblauw);
+border: solid 0.15rem var(--Donkerblauw);
+}
+
+.button-blue {
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 1.6rem;
+    color: var(--Wit) !important;
+    background-color: var(--Donkerblauw) !important;
+    padding: 0.6rem 1.5rem;
+    border-radius: 10rem;
+    text-decoration: none;
+}
+
+
+/* hart icoon */
+.ideale-baan .fa-heart{
+    font-size: 1.2rem;
+}
+
+/******************************************************************/
+/* kansen/* /* kansen/* /* kansen /* /* kansen/* 
+/******************************************************************/
+
+.kansen {
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+
+    & > section {
+        display: flex;
+        flex-direction: row;
+        gap: 3em;
+
+        & section {
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+
+            background-color: var(--Wit);
+            padding: 3em;
+
+            & a {
+                color: red;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+/******************************************************************/
+/* succesvol-solliciteren/* /* succesvol-solliciteren/* 
+/******************************************************************/
+
+.succesvol-solliciteren {
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+
+    display: flex;
+    flex-direction: row;
+    gap: 10em;
+
+    & > section {
+        flex: 1;
+    }
+
+    & section:nth-child(2) {
+        border-radius: var(--roundborder);
+        background-image: url(http://interselektie.local/wp-content/uploads/2024/06/lachende-vrouw.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    & h2, p {
+        margin-bottom: 1em;
+    }
+}
+
+
+@media only screen and (min-width: 168px) and (max-width: 768px) {
+    /* ideale-baan */ /* ideale-baan */ /* ideale-baan */ /* ideale-baan /* ideale-baan */
+    /* ideale-baan */ /* ideale-baan */ /* ideale-baan */ /* ideale-baan /* ideale-baan */
+
+    /* arrow icoon */
+    .ideale-baan > a i:last-of-type{
+        margin-left: auto;
+    }
+
+    /* buttons */
+    .ideale-baan section:last-of-type ul li a{
+        max-width: 56%;
+    }
+
+    /* 2+3 ideale-baan */
+    .ideale-baan section ul:nth-of-type(2),
+    .ideale-baan section ul:nth-of-type(3){
+    display: none;
+    }
+}
