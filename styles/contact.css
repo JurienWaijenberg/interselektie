@@ -1,0 +1,108 @@
+
+
+/******************************************************************************/
+/* Linker section /* /* Linker section /* /* Linker section /* /* Linker section /* 
+/******************************************************************************/
+.contact{
+    display: flex;
+    gap: 4rem;
+
+}
+
+.contactLinks{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    flex: 1;
+}
+
+.contactLinks section:nth-of-type(2){
+    /* background-color: green; */
+    display: flex;
+    gap: 7rem
+
+}
+
+/******************************************************************************/
+/* Intro tekst /*  /* Intro tekst /*  /* Intro tekst /*  /* Intro tekst /*  
+/******************************************************************************/
+
+
+.introUitzendSoort.contactIntro{
+    margin-bottom: 0;
+}
+
+.introUitzendSoort.contactIntro p{
+    width: 100%;
+}
+
+/******************************************************************************/
+/* Bezoekadres/tel/mail /* /* Bezoekadres/tel/mail /* /* Bezoekadres/tel/mail /* 
+/******************************************************************************/
+
+.contact article:first-of-type{
+    /* background-color: rgb(227, 200, 200); */
+}
+
+.contact article:first-of-type ul{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact article:first-of-type ul li{
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+    align-items: center
+}
+
+.contact article:first-of-type ul li p:first-of-type{
+    font-weight: 400;
+}
+
+/******************************************************************************/
+/* Openingstijden /* /* Openingstijden /* /* Openingstijden /* /* Openingstijden /*
+/******************************************************************************/
+
+.openingstijden{
+    /* background-color: rgb(232, 110, 110); */
+    width: 15rem;
+}
+
+.openingstijden > p{
+    font-weight: 400;
+}
+
+.openingstijden ul{
+    padding: 0;
+}
+
+.openingstijden li{
+    list-style-type: none;
+}
+
+.openingstijden li p{
+    display: flex;
+    justify-content: space-between;
+}
+
+/******************************************************************************/
+/* Contactformulier /* /* Contactformulier /* /* Contactformulier /* /* Contactformulier /* 
+/******************************************************************************/
+
+.contactFormulier{
+    margin-top: 5rem;
+    padding: 3rem;
+    border-radius: var(--roundborder);
+    border: var(--border) var(--Rood);
+    flex: 1;
+}
+
+.contactFormulier form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
