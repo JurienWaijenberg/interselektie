@@ -14,6 +14,7 @@ function bofesto_setup(){
     wp_enqueue_style( 'over-interselektie', get_template_directory_uri() . '/styles/over-interselektie.css');
     wp_enqueue_style( 'onze-documenten', get_template_directory_uri() . '/styles/onze-documenten.css');
     wp_enqueue_style( 'privacy-policy', get_template_directory_uri() . '/styles/privacy-policy.css');
+    wp_enqueue_style( 'disclaimer', get_template_directory_uri() . '/styles/disclaimer.css');
     wp_enqueue_style( 'vacatures', get_template_directory_uri() . '/styles/vacatures.css');
     wp_enqueue_style( 'werknemer', get_template_directory_uri() . '/styles/werknemer.css');
 
