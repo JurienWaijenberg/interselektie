@@ -10,8 +10,8 @@
         
 
         <form action="https://interselektie.bofesto.nl/vacatures/">
-            <input type="text" id="functie" placeholder="&#xF002;  Functie" style="font-family:Helvetica, Arial, sans-serif, FontAwesome" />
-            <input type="text" id="plaatsnaam-postcode" placeholder="&#xF002;  Plaatsnaam of postcode" style="font-family:Helvetica, Arial, sans-serif, FontAwesome" />
+            <input type="text" id="functieZoeken" placeholder="joe"/>
+            <input type="text" id="plaatsnaamPostcode" placeholder="hallo"/>
             <input type="submit" id="vacatures-zoeken" value="Vacatures zoeken">
         </form>
 
@@ -38,54 +38,58 @@
 
 </section>
 
-<!--atf home phone-->
+<section class="swiperVacatures swiperGroup max-width swiperVacatures-css-mode">
 
 
-<!--Top vacatures-->
-<section class="top-vacatures max-width">
+		<a href="x">
+			<i class="fa-solid fa-circle"></i>
+			<h2>Top vacatures</h2>
+			<i class="fa-solid fa-chevron-right"></i>
+		</a>
+		
+		<ul class="swiperVacatures-wrapper">
+		  <li class="swiperVacatures-slide">
+			<div>
+				<h3>Werkvoorbereider/ Calculator elektrotechniek</h3>
+				<p><i class="fa-solid fa-location-dot"></i> Amsterdam </p>
+				<p>Ben jij op zoek naar een nieuwe uitdaging in de productie? Interselektie is op zoek naar een enthousiaste verpakkingsoperator…</p>
+                <a href="x" class="blueBtn">Bekijk vacature</a>
+				<a href="x" class="blueBtnBorder">Bewaar vacature <i class="fa-regular fa-heart"></i></a>
+			</div>
+		  </li>
+	
+		  <li class="swiperVacatures-slide">
+			<div>
+				<h3>Werkvoorbereider/ Calculator elektrotechniek</h3>
+				<p><i class="fa-solid fa-location-dot"></i> Amsterdam </p>
+				<p>Ben jij op zoek naar een nieuwe uitdaging in de productie? Interselektie is op zoek naar een enthousiaste verpakkingsoperator…</p>
+				<a href="x" class="blueBtn">Bekijk vacature</a>
+				<a href="x" class="blueBtnBorder">Bewaar vacature <i class="fa-regular fa-heart"></i></a>
+			</div>
+		  </li>
+	
+		  <li class="swiperVacatures-slide">
+			<div>
+				<h3>Werkvoorbereider/ Calculator elektrotechniek</h3>
+				<p><i class="fa-solid fa-location-dot"></i> Amsterdam </p>
+				<p>Ben jij op zoek naar een nieuwe uitdaging in de productie? Interselektie is op zoek naar een enthousiaste verpakkingsoperator…</p>
+                <a href="x" class="blueBtn">Bekijk vacature</a>
+				<a href="x" class="blueBtnBorder">Bewaar vacature <i class="fa-regular fa-heart"></i></a>
+			</div>
+		  </li>
+	
+		
+		</ul>
+		<div class="swiperVacatures-button-next"><i class="fa-solid fa-chevron-right"></i></div>
+		<div class="swiperVacatures-button-prev"><i class="fa-solid fa-chevron-left"></i></div>
+		<div class="swiperVacatures-pagination"></div>
+	</section>
 
 
-    <a href="https://interselektie.bofesto.nl/vacatures/">
-        <i class="fa-solid fa-circle"></i>
-        <h2>Top vacatures</h2>
-        <i class="fa-solid fa-chevron-right"></i>
-    </a>
+<!-- swiperVacatures JS -->
+<script src="swiper-vacatures-bundle.min.js"></script>
 
 
-
-<section>
-    <ul>
-        <li>
-            <h3>Werkvoorbereider/ Calculator elektrotechniek</h3>
-            <p><i class="fa-solid fa-location-dot"></i> Amsterdam </p>
-            <p>Ben jij op zoek naar een nieuwe uitdaging in de productie? Interselektie is op zoek naar een enthousiaste verpakkingsoperator…</p>
-            <a href="https://interselektie.bofesto.nl/vacature-single/">Bekijk vacature</a>
-            <a href="#">Bewaar vacature <i class="fa-regular fa-heart"></i></a>
-        </li>
-    </ul>
-
-    <ul>
-        <li>
-            <h3>Werkvoorbereider/ Calculator elektrotechniek</h3>
-            <p><i class="fa-solid fa-location-dot"></i> Amsterdam </p>
-            <p>Ben jij op zoek naar een nieuwe uitdaging in de productie? Interselektie is op zoek naar een enthousiaste verpakkingsoperator…</p>
-            <a href="https://interselektie.bofesto.nl/vacature-single/">Bekijk vacature</a>
-            <a href="#">Bewaar vacature <i class="fa-regular fa-heart"></i></a>
-        </li>
-    </ul>
-
-    <ul>
-        <li>
-            <h3>Werkvoorbereider/ Calculator elektrotechniek</h3>
-            <p><i class="fa-solid fa-location-dot"></i> Amsterdam </p>
-            <p>Ben jij op zoek naar een nieuwe uitdaging in de productie? Interselektie is op zoek naar een enthousiaste verpakkingsoperator…</p>
-            <a href="https://interselektie.bofesto.nl/vacature-single/">Bekijk vacature</a>
-            <a href="#">Bewaar vacature <i class="fa-regular fa-heart"></i></a>
-        </li>
-    </ul>
-</section>
-
-</section>
 
 <section class="light-grey-bg">
 <!--Zoek op vakgebieden-->
@@ -142,7 +146,7 @@
         </li>
 
     </ul>
-    <a href="">Bekijk alle vakgebieden</a>
+    <a href="" class="blueBtn">Bekijk alle vakgebieden</a>
 </section>
 
 </section>
@@ -166,7 +170,7 @@
             <a href=""><p>Lees verder</p></a>
         </section>
 </section>	
-<img src="images/sport-team.jpg" alt="">
+<img src="http://interselektie.local/wp-content/uploads/2024/06/sport-team.jpg" alt="">
 </section>
 
 <!--Berichten Selektie-->

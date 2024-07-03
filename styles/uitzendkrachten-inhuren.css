@@ -24,18 +24,6 @@
     margin-top: 5rem;
 }
 
-.blueBtn{
-    font-size: 1rem;
-    font-weight: lighter;
-    line-height: 1.6rem;
-    color: var(--Wit);
-    background-color: var(--Donkerblauw);
-    padding: 0.6rem 2.5rem;
-    border-radius: 10rem;
-    text-decoration: none;
-    width: fit-content;
-}
-
 .grey-bg{
     background-color: var(--Grijs);
 }

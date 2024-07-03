@@ -274,19 +274,6 @@ padding: 2.5rem;
     width: fit-content;
 }
 
-.redBtn{
-    font-size: 1rem;
-    font-weight: lighter;
-    line-height: 1.6rem;
-    /* min-height: auto; */
-    color: var(--Wit);
-    background-color: var(--Rood);
-    padding: 0.6rem 2.5rem;
-    border-radius: 10rem;
-    text-decoration: none; 
-    width: fit-content;
-}
-
 .btnWaaromInterselektie{
     display: flex;
     justify-content: flex-end;
