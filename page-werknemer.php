@@ -112,7 +112,7 @@
         <p>Tot slot bieden we handige tips en tricks om je sollicitatieproces te verbeteren en je kansen te vergroten. Of je nu advies nodig hebt over hoe je jezelf presenteert tijdens het sollicitatiegesprek of hoe je online sollicitatieplatforms optimaal benut, onze gids voorziet je van de informatie die je nodig hebt om zelfverzekerd te solliciteren en succes te behalen in je carrière. Met onze uitgebreide gids ben je klaar om indruk te maken en jouw carrière naar nieuwe hoogten te tillen.</p>
     </section>
     <section>
-        
+        <img src="http://interselektie.local/wp-content/uploads/2024/06/lachende-vrouw.jpg" alt="">
     </section>
 </section>
 
@@ -224,9 +224,37 @@
 
 <section class="werving max-width">
     <h2>Werving en selectie met Interselektie, hoe werkt ’t?</h2>
-    <section>
-        
+    <section class="steps">
+        <section>
+            <span class="step">1</span>
+            <h3>Jouw bedrijfsbehoeften begrijpen</h3>
+            <p>We bespreken jouw bedrijfsbehoeften en stellen een nauwkeurige vacature op die past bij de functie-eisen en bedrijfscultuur.</p>
+        </section>
+        <section>
+        <span class="step">2</span>
+            <h3>Werving van diverse kandidaten</h3>
+            <p>We trekken geschikte kandidaten aan via diverse kanalen, zoals sociale media, ons uitgebreide netwerk en externe zoekmachines.</p>
+        </section>
+        <section>
+            <span class="step">3</span>
+            <h3>Beoordeling <br>van CV’s</h3>
+            <p>Ons team screent zorgvuldig alle ontvangen cv’s op relevante ervaring, vaardigheden en andere criteria die overeenkomen met jouw wensen.</p>
+        </section>
+        <section>
+            <img src="http://interselektie.local/wp-content/uploads/2024/06/lachende-vrouw.jpg" alt="">
+        </section>
+        <section>
+            <span class="step">5</span>
+            <h3>Aanbod en arbeids- voorwaarden bespreken</h3>
+            <p>Zodra de ideale kandidaat is gekozen, doen we een formeel aanbod en onderhandelen we over de arbeidsvoorwaarden voor een gunstige overeenkomst.</p>
+        </section>
+        <section>
+            <span class="step">4</span>
+            <h3>Selectie van potentiële kandidaten</h3>
+            <p>Na identificatie van potentiële kandidaten organiseren we sollicitatiegesprekken en helpen we jou bij het kiezen van de meest geschikte kandidaten.</p>
+        </section>
     </section>
 </section>
+
 
 <?php get_footer(); ?>

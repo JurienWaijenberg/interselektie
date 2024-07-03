@@ -146,7 +146,7 @@ border: solid 0.15rem var(--Donkerblauw);
 
     display: flex;
     flex-direction: row;
-    gap: 10em;
+    gap: 4em;
 
     & > section {
         flex: 1;
@@ -154,10 +154,17 @@ border: solid 0.15rem var(--Donkerblauw);
 
     & section:nth-child(2) {
         border-radius: var(--roundborder);
-        background-image: url(http://interselektie.local/wp-content/uploads/2024/06/lachende-vrouw.jpg);
+        /* background-image: url(http://interselektie.local/wp-content/uploads/2024/06/lachende-vrouw.jpg); */
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
+    }
+
+    & section:nth-child(2) img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: var(--roundborder);
     }
 
     & h2, p {
@@ -184,5 +191,151 @@ border: solid 0.15rem var(--Donkerblauw);
     .ideale-baan section ul:nth-of-type(2),
     .ideale-baan section ul:nth-of-type(3){
     display: none;
+    }
+}
+
+/******************************************************************/
+/* succesvol-solliciteren/* /* succesvol-solliciteren/* 
+/******************************************************************/
+
+.werving {
+    padding: 5em 2.5em;
+}
+
+.steps {
+    padding: 3em 0em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1em;
+    row-gap: 0em;
+
+    & section {
+        flex: 1;
+        min-width: 17%;
+        padding: 4em;
+        position: relative;
+        border-top: 4px solid #E5E5E5;
+    }
+
+    & section:nth-child(3) {
+        border: 4px solid #E5E5E5;
+        border-left: 0px;
+        border-radius: 2em;
+    }
+
+    & section:nth-child(6) {
+        border: 0px;
+    }
+
+    & section:nth-child(4) {
+        border: 0px;
+    }
+
+    & span {
+        background: var(--Rood);
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--Wit);
+        border-radius: 50%;
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 1.5em;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-top: -37px;
+        margin-left: -16px;
+        border: 12px solid #fff;
+    }
+
+    & span::after {
+        content: "";
+        display: block;
+        width: 14px;
+        height: 14px;
+        background-color: var(--Rood);
+        position: absolute;
+        top: 7.3em;
+        border-radius: 50%;
+    }
+
+    & span::before {
+        content: "";
+        position: absolute;
+        top: 60px;
+        height: 105px;
+        border-left: 3px dotted #E5E5E5;
+    }
+
+    & img {
+        width: 90%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        border-radius: var(--roundborder);
+    }
+
+    & h3 {
+        padding-bottom: 1em;
+    }
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .ideale-baan section:last-of-type {
+        flex-direction: column;
+    }
+
+    .kansen {
+        & > section {
+            flex-direction: column;
+        }
+    }
+
+    .succesvol-solliciteren {
+        flex-direction: column;
+    }
+
+    .top-vacatures section:last-of-type {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 937px) {
+    .steps {
+        & section:nth-child(3) {
+            border: 0px solid #E5E5E5;
+            border-top: 4px solid #E5E5E5;
+            border-left: 0px;
+            border-radius: 0;
+        }
+
+        & section:nth-child(6) {
+            border-top: 4px solid #E5E5E5;
+        }
+
+        & section {
+            min-width: 26%;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .steps {
+        & section {
+            min-width: auto;
+            flex: auto;
+        }
+        & section:nth-child(4) {
+            padding: 0em 0em 4em 0em;
+        }
+
+        & img {
+            width: 100%;
+            position: inherit;
+        }
     }
 }
