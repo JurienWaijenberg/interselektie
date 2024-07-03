@@ -147,7 +147,7 @@ border: solid 0.15rem var(--Donkerblauw);
 
     display: flex;
     flex-direction: row;
-    gap: 10em;
+    gap: 4em;
 
     & > section {
         flex: 1;
@@ -155,10 +155,17 @@ border: solid 0.15rem var(--Donkerblauw);
 
     & section:nth-child(2) {
         border-radius: var(--roundborder);
-        background-image: url(http://interselektie.local/wp-content/uploads/2024/06/lachende-vrouw.jpg);
+        /* background-image: url(http://interselektie.local/wp-content/uploads/2024/06/lachende-vrouw.jpg); */
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
+    }
+
+    & section:nth-child(2) img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: var(--roundborder);
     }
 
     & h2, p {

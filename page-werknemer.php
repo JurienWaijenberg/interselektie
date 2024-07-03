@@ -112,7 +112,7 @@
         <p>Tot slot bieden we handige tips en tricks om je sollicitatieproces te verbeteren en je kansen te vergroten. Of je nu advies nodig hebt over hoe je jezelf presenteert tijdens het sollicitatiegesprek of hoe je online sollicitatieplatforms optimaal benut, onze gids voorziet je van de informatie die je nodig hebt om zelfverzekerd te solliciteren en succes te behalen in je carrière. Met onze uitgebreide gids ben je klaar om indruk te maken en jouw carrière naar nieuwe hoogten te tillen.</p>
     </section>
     <section>
-        
+        <img src="http://interselektie.local/wp-content/uploads/2024/06/lachende-vrouw.jpg" alt="">
     </section>
 </section>
 

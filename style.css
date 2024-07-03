@@ -725,9 +725,9 @@ footer > section:nth-child(2){
 
 .footer-img img{
     position: absolute;
-    right: 1rem;
+    right: -2rem;
     bottom: 0;
-    width: 530px;
+    width: 330px;
 }
 
 .footer-top section section ul{
@@ -993,9 +993,14 @@ footer > section:nth-child(2){
 
 @media only screen and (max-width: 1024px) {
     .footer-img img {
-        width: 380px;
+        width: 250px;
+    }
+    .footer-bottom ul li a p {
+        color: var(--Donkergrijs);
+        font-size: .7em;
     }
 }
+
 
 
 
@@ -1228,7 +1233,7 @@ display:none;
   width: 12rem;
   height: auto;
   position: absolute;
-  bottom: -8rem;
+  bottom: 0rem;
   right: 2rem;
   z-index: 0;
 }
@@ -1332,4 +1337,16 @@ justify-content: center;
 }
 
 
+}
+
+
+@media only screen and (max-width: 350px) {
+    .footer-top-phone img {
+        width: 10rem;
+        height: auto;
+        position: absolute;
+        bottom: 0rem;
+        right: 0rem;
+        z-index: 0;
+    }
 }
