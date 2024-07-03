@@ -87,20 +87,24 @@
     
 <section class="contactFormulier">
 
+    <h2>Contactformulier</h2>
+
     <form action="contact.php" method="post">
-        <label for="name">Naam</label>
+        <label for="name"><p>Naam</p></label>
         <input type="text" id="name" name="name" required>
 
-        <label for="email">E-mailadres</label>
+        <label for="email"><p>E-mailadres</p></label>
         <input type="email" id="email" name="email" required>
 
-        <label for="message">Bericht</label>
+        <label for="message"><p>Bericht</p></label>
         <textarea id="message" name="message" required></textarea>
 
         <label for="privacy">
             <input type="checkbox" id="privacy" name="privacy" required>
-            Ja, ik ga akkoord met het <a href="privacybeleid.html" target="_blank">privacybeleid</a> van Interselektie
+            <p>Ja, ik ga akkoord met het <a href="privacybeleid.html" target="_blank">privacybeleid</a> van Interselektie</p> 
         </label>
+
+        <button class="redBtn form" type="submit">Versturen</button>
     </form>
 
 </section>
