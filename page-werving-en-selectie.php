@@ -60,7 +60,7 @@
 
 <section class="light-grey-bg">
     <section class="voordelen max-width">
-            <img src="http://interselektie.local/wp-content/uploads/2024/06/sport-team.jpg" alt="">
+        <section><img src="http://interselektie.local/wp-content/uploads/2024/06/sport-team.jpg" alt=""></section>
         <section>
             <h2>De voordelen van werving en selectie</h2>
             <ul>
@@ -90,7 +90,7 @@
             <p>Bij uitzenden bieden we flexibele personeelsoplossingen die ideaal zijn voor kortetermijnbehoeften en projecten. Het stelt je in staat om snel en gemakkelijk gekwalificeerde medewerkers in te huren, zonder langdurige contractuele verplichtingen. <br><br>
                 Aan de andere kant, met werving & selectie gaan we dieper in op het vinden van permanente toptalenten die naadloos in jouw bedrijfscultuur passen. We screenen, interviewen en selecteren kandidaten zorgvuldig om ervoor te zorgen dat je de beste match krijgt voor de lange termijn. </p>
         </section>
-        <img src="http://interselektie.local/wp-content/uploads/2024/06/sport-team.jpg" alt="">
+        <section><img src="http://interselektie.local/wp-content/uploads/2024/06/sport-team.jpg" alt=""></section>
     </section>
 </section>
 

@@ -57,7 +57,7 @@
 
 <section class="light-grey-bg">
     <section class="voordelen max-width">
-            <img src="http://interselektie.local/wp-content/uploads/2024/06/sport-team.jpg" alt="">
+        <section><img src="http://interselektie.local/wp-content/uploads/2024/06/sport-team.jpg" alt=""></section>
         <section>
             <h2>De voordelen van detacheren</h2>
             <ul>
@@ -86,7 +86,7 @@
             <h2>Verschil detacheren en uitzenden?</h2>
             <p>Detacheren geeft je net als uitzenden een flexibel personeelsbestand. Ook hier zijn wij verantwoordelijk voor de uitvoering van het werkgeverschap en nemen we de administratie bij je uit handen. Detacheren geeft jou (én de medewerker) echter meer zekerheid. Waar uitzenden een zeer flexibele arbeidsverhouding betreft, spreken wij bij detacheren vooraf de contractduur af. Daarnaast eindigd het contract niet bij het beindigen van de opdracht maar op de vooraf afgesproken datum. </p>
         </section>
-        <img src="http://interselektie.local/wp-content/uploads/2024/06/sport-team.jpg" alt="">
+        <section>        <img src="http://interselektie.local/wp-content/uploads/2024/06/sport-team.jpg" alt=""></section>
     </section>
 </section>
 
@@ -97,7 +97,7 @@
         <a href="x" class="redBtn">Neem contact op</a> 
     </section>
     <section>
-        <img src="http://interselektie.local/wp-content/uploads/2024/06/lachende-vrouw.jpg" alt="">
+        <section><img src="http://interselektie.local/wp-content/uploads/2024/06/lachende-vrouw.jpg" alt=""></section>
     </section>
 </section> 
 

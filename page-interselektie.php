@@ -10,8 +10,8 @@
         
 
         <form action="https://interselektie.bofesto.nl/vacatures/">
-            <input type="text" id="functieZoeken" placeholder="joe"/>
-            <input type="text" id="plaatsnaamPostcode" placeholder="hallo"/>
+            <input type="text" id="functieZoeken" placeholder="Functie"/>
+            <input type="text" id="plaatsnaamPostcode" placeholder="Plaatsnaam of postcode"/>
             <input type="submit" id="vacatures-zoeken" value="Vacatures zoeken">
         </form>
 

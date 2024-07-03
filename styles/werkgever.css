@@ -234,6 +234,7 @@ padding: 2.5rem;
     height: 2rem;
     padding: 1rem;
     margin-bottom: 1.2rem;
+    
 }
 
 /******************************************************************/
@@ -245,6 +246,7 @@ padding: 2.5rem;
     border-radius: var(--roundborder);
     margin-top: 4rem;
     margin-bottom: 2rem;
+
 }
 
 .waaromInterselektie{
@@ -622,7 +624,8 @@ padding: 2.5rem;
 .red-bg-form article a{
     width: -webkit-fill-available;
     display: flex;
-    justify-content: center
+    justify-content: center;
+
 }
 
 /* telefoonnummer */
