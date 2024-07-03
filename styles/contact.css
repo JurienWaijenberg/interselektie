@@ -1,0 +1,230 @@
+
+
+/******************************************************************************/
+/* Linker section /* /* Linker section /* /* Linker section /* /* Linker section /* 
+/******************************************************************************/
+.contact{
+    display: flex;
+    gap: 5rem;
+
+}
+
+.contactLinks{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    flex: 1;
+    margin-bottom: 5rem;
+}
+
+.contactLinks section:nth-of-type(2){
+    display: flex;
+    /* gap: 7rem */
+
+}
+
+/******************************************************************************/
+/* Intro tekst /*  /* Intro tekst /*  /* Intro tekst /*  /* Intro tekst /*  
+/******************************************************************************/
+
+
+.introUitzendSoort.contactIntro{
+    margin-bottom: 0;
+}
+
+.introUitzendSoort.contactIntro p{
+    width: 100%;
+}
+
+/******************************************************************************/
+/* Bezoekadres/tel/mail /* /* Bezoekadres/tel/mail /* /* Bezoekadres/tel/mail /* 
+/******************************************************************************/
+
+.contact article:first-of-type{
+    /* background-color: rgb(227, 200, 200); */
+    width: 50%;
+}
+
+.contact article:first-of-type ul{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact article:first-of-type ul li{
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+    align-items: center
+}
+
+.contact article:first-of-type ul li p:first-of-type{
+    font-weight: 400;
+}
+
+/******************************************************************************/
+/* Openingstijden /* /* Openingstijden /* /* Openingstijden /* /* Openingstijden /*
+/******************************************************************************/
+
+.openingstijden{
+    width: 50%;
+}
+
+.openingstijden > p{
+    font-weight: 400;
+}
+
+.openingstijden ul{
+    padding: 0;
+}
+
+.openingstijden li{
+    list-style-type: none;
+}
+
+.openingstijden li p{
+    display: flex;
+    justify-content: space-between;
+}
+
+/******************************************************************************/
+/* Contactformulier /* /* Contactformulier /* /* Contactformulier /* /* Contactformulier /* 
+/******************************************************************************/
+
+/* Rechter section titel + form */
+.contactFormulier{
+    margin: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    flex: 1;
+    
+}
+
+/* Formulier geheel */
+.contactFormulier form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    border-radius: var(--roundborder);
+    border: var(--border) var(--Rood);
+    padding: 2.5rem;
+    flex: 1;
+}
+
+/* Invoerveld */
+.contactFormulier input,
+.contactFormulier textarea{
+    margin-bottom: 1.5rem;
+    background-color: var(--Lichtgrijs);
+    height: 2rem;
+    border: solid 0.08rem var(--Donkerblauw);
+    padding: 0.5rem;
+    font-family: Helvetica, Arial, sans-serif;
+    color: var(--Donkerblauw);
+    font-weight: 200;
+    font-size: 1rem;
+}
+
+
+
+/* Invoerveld: Naam */
+.contactFormulier input:nth-of-type(1){
+    border-radius: 0 1.5rem 0 0;
+}
+
+/* Invoerveld: Bericht */
+.contactFormulier textarea{
+    height: 8rem;
+    margin-bottom: 1rem;
+    border-radius: 0 0 1.5rem 1.5rem;
+}
+
+/* Kopje */
+.contactFormulier label{
+    padding-left: 0.5rem;
+}
+
+/* Privacy checkbox + text */
+.contactFormulier label:nth-of-type(4){
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+/* checkbox */
+input#privacy{
+    accent-color: var(--Donkerblauw);
+    margin: 0;
+
+    width: 1.5rem; 
+    height: 1.5rem; 
+}
+
+.redBtn.form{
+    width: auto;
+    border: none;
+}
+
+@media (max-width: 1080px) {
+
+    .contact{
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .contactLinks section:nth-of-type(2){
+        gap: 5rem;
+    }
+
+    .contact article:first-of-type{
+        width: fit-content;
+    }
+
+    .contact article:nth-of-type(2){
+        width: 30%; 
+    }
+
+    .contactLinks{
+        margin-bottom: 0;
+    }
+
+    .contactFormulier{
+        margin: 0;
+        margin-bottom: 4rem;
+    }
+
+
+}
+
+@media (max-width: 850px) {
+
+    .contact article:nth-of-type(2){
+        width: 40%; 
+    }
+}
+
+
+@media only screen and (min-width: 168px) and (max-width: 650px) {
+
+
+    .contact article:nth-of-type(2){
+        width: auto; 
+    }
+
+    .contactLinks section:nth-of-type(2){
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .contactFormulier form{
+        padding: 1.5rem;
+    }
+
+    .introUitzendSoort.contactIntro{
+        margin-top: 3rem;
+    }
+}

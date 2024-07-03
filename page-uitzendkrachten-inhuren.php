@@ -57,7 +57,8 @@
 
 <section class="light-grey-bg">
     <section class="voordelen max-width">
-            <img src="http://interselektie.local/wp-content/uploads/2024/06/sport-team.jpg" alt="">
+        <section><img src="http://interselektie.local/wp-content/uploads/2024/06/sport-team.jpg" alt=""></section>
+            
         <section>
             <h2>De voordelen van uitzenden</h2>
             <ul>
@@ -88,13 +89,17 @@
             <p>Bij uitzenden bieden we flexibele personeelsoplossingen die ideaal zijn voor kortetermijnbehoeften en projecten. Het stelt je in staat om snel en gemakkelijk gekwalificeerde medewerkers in te huren, zonder langdurige contractuele verplichtingen. <br><br>
                 Aan de andere kant, met werving & selectie gaan we dieper in op het vinden van permanente toptalenten die naadloos in jouw bedrijfscultuur passen. We screenen, interviewen en selecteren kandidaten zorgvuldig om ervoor te zorgen dat je de beste match krijgt voor de lange termijn. </p>
         </section>
-        <img src="http://interselektie.local/wp-content/uploads/2024/06/sport-team.jpg" alt="">
+
+        <section><img src="http://interselektie.local/wp-content/uploads/2024/06/berichtenselektieIMG.png" alt=""></section>
     </section>
 </section>
 
 
 <section class="werkgeverCTA max-width">
+    <section>
     <img src="http://interselektie.local/wp-content/uploads/2024/06/sport-team.jpg" alt="">
+    </section>
+    
     <section>
         <h2>Ontdek de Kracht van uitzenden met Interselektie</h2>
         <p>Klaar om aan de slag te gaan met uitzendkrachten via Interselektie? Laten we ervoor gaan! Elke week vervullen we talloze vacatures in diverse vakgebieden. Nu is het tijd voor die van jou! Deel je vacature of neem contact op met een van onze medewerkers. </p>

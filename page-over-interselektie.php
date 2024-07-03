@@ -60,12 +60,15 @@
 
                 Voor onze opdrachtgevers fungeren we als strategische HR-partner die niet alleen meedenkt, maar ook tijd bespaart en praktische oplossingen biedt. Op die manier streven we ernaar om gelijke kansen voor iedereen te bevorderen. Het is een missie waar we trots op zijn, omdat het allemaal draait om het welzijn van mensen. Dat is wat ons motiveert.</p>
     </section>
+    <section>
     <img src="http://interselektie.local/wp-content/uploads/2024/06/sport-team.jpg" alt="">
+    </section>
 </section>
 
 <section class="light-grey-bg">
     <section class="voordelen max-width">
-            <img src="http://interselektie.local/wp-content/uploads/2024/06/sport-team.jpg" alt="">
+        <section><img src="http://interselektie.local/wp-content/uploads/2024/06/sport-team.jpg" alt=""></section>
+            
         <section>
             <h2>Visie en toewijding: <br> onze blik op de toekomst</h2>
             <ul>
