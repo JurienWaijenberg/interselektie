@@ -18,6 +18,7 @@ function bofesto_setup(){
     wp_enqueue_style( 'vacatures', get_template_directory_uri() . '/styles/vacatures.css');
     wp_enqueue_style( 'werknemer', get_template_directory_uri() . '/styles/werknemer.css');
     wp_enqueue_style( 'contact', get_template_directory_uri() . '/styles/contact.css');
+    wp_enqueue_style( 'berichtenSelektie', get_template_directory_uri() . '/styles/berichtenSelektie.css');
 
     wp_enqueue_script( "swiper-bundle", get_template_directory_uri() . '/js/swiper-bundle.min.js', NULL, '3.5.1', true);
     wp_enqueue_script( "javaScript", get_template_directory_uri() . '/js/javaScript.js', NULL, '3.5.1', true);
