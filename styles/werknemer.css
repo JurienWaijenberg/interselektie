@@ -203,7 +203,7 @@ border: solid 0.15rem var(--Donkerblauw);
 }
 
 .steps {
-    padding: 3em 0em;
+    padding: 3em 0em 0em 0em;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

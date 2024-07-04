@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+
 <section class="banner">
     <img src="http://interselektie.local/wp-content/uploads/2024/06/lachende-vrouw.jpg" alt="">
     <!-- <h2>test</h2> -->
