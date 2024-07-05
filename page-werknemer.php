@@ -118,7 +118,51 @@
 
 
 <!--Top vacatures-->
-<section class="top-vacatures max-width">
+<section class="swiperVacatures swiperGroup max-width swiperVacatures-css-mode">
+		<a href="#">
+			<i class="fa-solid fa-circle"></i>
+			<h2>Top vacatures</h2>
+			<i class="fa-solid fa-chevron-right"></i>
+		</a>
+		
+		<ul class="swiperVacatures-wrapper">
+		  <li class="swiperVacatures-slide">
+			<div>
+				<h3>Werkvoorbereider/ Calculator elektrotechniek</h3>
+				<p><i class="fa-solid fa-location-dot"></i> Amsterdam </p>
+				<p>Ben jij op zoek naar een nieuwe uitdaging in de productie? Interselektie is op zoek naar een enthousiaste verpakkingsoperator…</p>
+                <a href="#" class="blueBtn">Bekijk vacature</a>
+				<a href="#" class="blueBtnBorder">Bewaar vacature <i class="fa-regular fa-heart"></i></a>
+			</div>
+		  </li>
+	
+		  <li class="swiperVacatures-slide">
+			<div>
+				<h3>Werkvoorbereider/ Calculator elektrotechniek</h3>
+				<p><i class="fa-solid fa-location-dot"></i> Amsterdam </p>
+				<p>Ben jij op zoek naar een nieuwe uitdaging in de productie? Interselektie is op zoek naar een enthousiaste verpakkingsoperator…</p>
+				<a href="#" class="blueBtn">Bekijk vacature</a>
+				<a href="#" class="blueBtnBorder">Bewaar vacature <i class="fa-regular fa-heart"></i></a>
+			</div>
+		  </li>
+	
+		  <li class="swiperVacatures-slide">
+			<div>
+				<h3>Werkvoorbereider/ Calculator elektrotechniek</h3>
+				<p><i class="fa-solid fa-location-dot"></i> Amsterdam </p>
+				<p>Ben jij op zoek naar een nieuwe uitdaging in de productie? Interselektie is op zoek naar een enthousiaste verpakkingsoperator…</p>
+                <a href="#" class="blueBtn">Bekijk vacature</a>
+				<a href="#" class="blueBtnBorder">Bewaar vacature <i class="fa-regular fa-heart"></i></a>
+			</div>
+		  </li>
+	
+		
+		</ul>
+		<div class="swiperVacatures-button-next"><i class="fa-solid fa-chevron-right"></i></div>
+		<div class="swiperVacatures-button-prev"><i class="fa-solid fa-chevron-left"></i></div>
+		<div class="swiperVacatures-pagination"></div>
+</section>
+<!-- <section class="top-vacatures max-width">
 
 
     <a href="https://interselektie.bofesto.nl/vacatures/">
@@ -160,7 +204,7 @@
         </ul>
     </section>
 
-</section>
+</section> -->
 
 <section class="light-grey-bg">
 <!--Zoek op vakgebieden-->

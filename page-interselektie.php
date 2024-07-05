@@ -39,9 +39,7 @@
 </section>
 
 <section class="swiperVacatures swiperGroup max-width swiperVacatures-css-mode">
-
-
-		<a href="x">
+		<a href="#">
 			<i class="fa-solid fa-circle"></i>
 			<h2>Top vacatures</h2>
 			<i class="fa-solid fa-chevron-right"></i>
@@ -53,8 +51,8 @@
 				<h3>Werkvoorbereider/ Calculator elektrotechniek</h3>
 				<p><i class="fa-solid fa-location-dot"></i> Amsterdam </p>
 				<p>Ben jij op zoek naar een nieuwe uitdaging in de productie? Interselektie is op zoek naar een enthousiaste verpakkingsoperator…</p>
-                <a href="x" class="blueBtn">Bekijk vacature</a>
-				<a href="x" class="blueBtnBorder">Bewaar vacature <i class="fa-regular fa-heart"></i></a>
+                <a href="#" class="blueBtn">Bekijk vacature</a>
+				<a href="#" class="blueBtnBorder">Bewaar vacature <i class="fa-regular fa-heart"></i></a>
 			</div>
 		  </li>
 	
@@ -63,8 +61,8 @@
 				<h3>Werkvoorbereider/ Calculator elektrotechniek</h3>
 				<p><i class="fa-solid fa-location-dot"></i> Amsterdam </p>
 				<p>Ben jij op zoek naar een nieuwe uitdaging in de productie? Interselektie is op zoek naar een enthousiaste verpakkingsoperator…</p>
-				<a href="x" class="blueBtn">Bekijk vacature</a>
-				<a href="x" class="blueBtnBorder">Bewaar vacature <i class="fa-regular fa-heart"></i></a>
+				<a href="#" class="blueBtn">Bekijk vacature</a>
+				<a href="#" class="blueBtnBorder">Bewaar vacature <i class="fa-regular fa-heart"></i></a>
 			</div>
 		  </li>
 	
@@ -73,8 +71,8 @@
 				<h3>Werkvoorbereider/ Calculator elektrotechniek</h3>
 				<p><i class="fa-solid fa-location-dot"></i> Amsterdam </p>
 				<p>Ben jij op zoek naar een nieuwe uitdaging in de productie? Interselektie is op zoek naar een enthousiaste verpakkingsoperator…</p>
-                <a href="x" class="blueBtn">Bekijk vacature</a>
-				<a href="x" class="blueBtnBorder">Bewaar vacature <i class="fa-regular fa-heart"></i></a>
+                <a href="#" class="blueBtn">Bekijk vacature</a>
+				<a href="#" class="blueBtnBorder">Bewaar vacature <i class="fa-regular fa-heart"></i></a>
 			</div>
 		  </li>
 	
@@ -83,7 +81,7 @@
 		<div class="swiperVacatures-button-next"><i class="fa-solid fa-chevron-right"></i></div>
 		<div class="swiperVacatures-button-prev"><i class="fa-solid fa-chevron-left"></i></div>
 		<div class="swiperVacatures-pagination"></div>
-	</section>
+</section>
 
 
 <!-- swiperVacatures JS -->
